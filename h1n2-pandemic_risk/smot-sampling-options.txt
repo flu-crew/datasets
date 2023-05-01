@@ -1,0 +1,16 @@
+#smot sample mono --factor-by-capture="(1A\.[^|]*)" --keep-regex="(huVaccine|Consensus|variant|CVV|-consensus|pdmRisk)" -s 5 --min-tips=5 1A-2019-2021-preSMOT.tree >smot-v1.tre
+
+smot sample mono \
+	--factor-by-capture="(1A\.[^|]*)" \
+	--keep-regex="(huVaccine|Consensus|variant|CVV|-consensus|pdmRisk)" \
+	-s 2 --min-tips=2 1A-2019-2021-preSMOT.tree >smot-v3.tre
+
+
+cat smot-v3.tre | 
+		smot color leaf -Pp "pdmRisk" "#800080" |
+		smot color leaf -p "variant" "#FF9D00" |
+		smot color leaf -p "CVV" "#FF0000" |
+		smot color leaf -Pp "(-consensus|huVaccine)" "#999999" |
+		smot color branch para \
+            --factor-by-capture '\|(1[ABC]\.[^\|\_]*|3\.\d{4}[^\|\_]*|Other-[^\|\_]*)' \
+            --colormap tree-colormap-v2.tab > smot-v3-colored.tre

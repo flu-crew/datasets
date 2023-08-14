@@ -2,6 +2,15 @@
 
 flu-crew datasets used in manuscripts, tutorials, and other work.
 
+## h5n1-hpai
+
+Variant call output for:
+Arruda, B., Vincent Baker, A.L., Buckley, A., Torchetti, M., Hines Bergeson, N., Killian, M.L., Lantz, K., Anderson, T.K. Avian and mammalian isolates of highly pathogenic avian influenza belonging to the goose/Guangdong 2.3.4.4b hemagglutinin phylogenetic clade infect swine and mammalian isolates transmit to limited contacts.
+
+Raw FASTQ files for samples are available at the USDA AGData Commons here:
+URL pending.
+
+
 ## h1n2-pandemic_risk
 
 Tree files and data for:

@@ -1,0 +1,30 @@
+##fileformat=VCFv4.1																						
+##source=VarScan2																						
+"##INFO=<ID=ADP,Number=1,Type=Integer,Description=""Average per-sample depth of bases with Phred score >= 30"">"																						
+"##INFO=<ID=WT,Number=1,Type=Integer,Description=""Number of samples called reference (wild-type)"">"																						
+"##INFO=<ID=HET,Number=1,Type=Integer,Description=""Number of samples called heterozygous-variant"">"																						
+"##INFO=<ID=HOM,Number=1,Type=Integer,Description=""Number of samples called homozygous-variant"">"																						
+"##INFO=<ID=NC,Number=1,Type=Integer,Description=""Number of samples not called"">"																						
+"##FILTER=<ID=str10,Description=""Less than 10% or more than 90% of variant supporting reads on one strand"">"																						
+"##FILTER=<ID=indelError,Description=""Likely artifact due to indel reads at this position"">"																						
+"##FORMAT=<ID=GT,Number=1,Type=String,Description=""Genotype"">"																						
+"##FORMAT=<ID=GQ,Number=1,Type=Integer,Description=""Genotype Quality"">"																						
+"##FORMAT=<ID=SDP,Number=1,Type=Integer,Description=""Raw Read Depth as reported by SAMtools"">"																						
+"##FORMAT=<ID=DP,Number=1,Type=Integer,Description=""Quality Read Depth of bases with Phred score >= 30"">"																						
+"##FORMAT=<ID=RD,Number=1,Type=Integer,Description=""Depth of reference-supporting bases (reads1)"">"																						
+"##FORMAT=<ID=AD,Number=1,Type=Integer,Description=""Depth of variant-supporting bases (reads2)"">"																						
+"##FORMAT=<ID=FREQ,Number=1,Type=String,Description=""Variant allele frequency"">"																						
+"##FORMAT=<ID=PVAL,Number=1,Type=String,Description=""P-value from Fisher's Exact Test"">"																						
+"##FORMAT=<ID=RBQ,Number=1,Type=Integer,Description=""Average quality of reference-supporting bases (qual1)"">"																						
+"##FORMAT=<ID=ABQ,Number=1,Type=Integer,Description=""Average quality of variant-supporting bases (qual2)"">"																						
+"##FORMAT=<ID=RDF,Number=1,Type=Integer,Description=""Depth of reference-supporting bases on forward strand (reads1plus)"">"																						
+"##FORMAT=<ID=RDR,Number=1,Type=Integer,Description=""Depth of reference-supporting bases on reverse strand (reads1minus)"">"																						
+"##FORMAT=<ID=ADF,Number=1,Type=Integer,Description=""Depth of variant-supporting bases on forward strand (reads2plus)"">"																						
+"##FORMAT=<ID=ADR,Number=1,Type=Integer,Description=""Depth of variant-supporting bases on reverse strand (reads2minus)"">"																						
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Sample1													
+Seq3	1284	.	A	G	.	PASS	ADP=211;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1	30	214	211	201	10	4.74%	8.76E-04	38	37	69	132	3	7
+Seq7	259	.	A	G	.	PASS	ADP=532;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1	67	539	532	510	22	4.14%	1.91E-07	38	37	266	244	12	10
+Seq7	487	.	A	G	.	PASS	ADP=645;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1	21	648	645	638	7	1.09%	7.69E-03	38	36	326	312	1	6
+Seq7	682	.	G	A	.	PASS	ADP=504;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1	24	509	504	496	8	1.59%	3.80E-03	37	37	201	295	5	3
+Seq8	261	.	A	G	.	PASS	ADP=1048;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1	76	1061	1048	1019	29	2.77%	2.40E-08	37	37	500	519	13	16
+Seq8	623	.	A	G	.	PASS	ADP=1194;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1	255	1217	1194	1106	88	7.37%	2.86E-26	38	37	324	782	23	65

@@ -30,6 +30,12 @@ Tree files and data for:
 
 Kimble, J.B.; Souza, C.K.; Anderson, T.K.; Arendsee, Z.W.; Hufnagel, D.E.; Young, K.M.; Lewis, N.S.; Davis, C.T.; Thor, S.; Vincent Baker, A.L. Interspecies Transmission from Pigs to Ferrets of Antigenically Distinct Swine H1 Influenza A Viruses with Reduced Reactivity to Candidate Vaccine Virus Antisera as Measures of Relative Zoonotic Risk. [Viruses 2022, 14(11), 2398. DOI: 10.3390/v14112398](https://pubmed.ncbi.nlm.nih.gov/36366493/).
 
+## h3-np-reassortment
+
+Figures and data for: 
+
+Thomas, M.N.; Zanella, G.C.; Cowan, B.; Caceres C.J.; Rajao, D.S.; Perez, D.R.; Gauger, P.C.; Baker, A.L.; Anderson, T.K. Nucleoprotein reassortment enhanced transmissability of H3 1990.4.a clade influenza A virus in swine. (manuscript in preparation)
+
 ## h3-swinetoferret
 
 Tree files and data for:

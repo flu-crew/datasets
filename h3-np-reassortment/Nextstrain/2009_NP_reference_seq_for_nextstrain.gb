@@ -1,0 +1,76 @@
+LOCUS       KR701770                1497 bp    cRNA    linear   VRL 10-JUN-2015
+DEFINITION  Influenza A virus (A/swine/Illinois/A01076175/2009(H1N1)) segment 5
+            nucleocapsid protein (NP) gene, complete cds.
+ACCESSION   KR701770
+VERSION     KR701770.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/swine/Illinois/A01076175/2009(H1N1))
+  ORGANISM  Influenza A virus (A/swine/Illinois/A01076175/2009(H1N1))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1497)
+  CONSRTM   USDA Swine Surveillance
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAY-2015) USDA, 1920 Dayton Avenue, Ames, IA 50010,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..1497
+                     /organism="Influenza A virus
+                     (A/swine/Illinois/A01076175/2009(H1N1))"
+                     /mol_type="viral cRNA"
+                     /strain="A/swine/Illinois/A01076175/2009"
+                     /serotype="H1N1"
+                     /isolation_source="lung"
+                     /host="swine"
+                     /db_xref="taxon:1171166"
+                     /segment="5"
+                     /country="USA"
+                     /collection_date="22-Nov-2009"
+     gene            1..1497
+                     /gene="NP"
+     CDS             1..1497
+                     /gene="NP"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="AKJ84289.1"
+                     /translation="MASQGTKRSYEQMETGGERQDATEIRASVGRMIGGIGRFYIQMC
+                     TELKLSDYDGRLIQNSITIERMVLSAFDERRNKYLEEHPSAGKDPKKTGGPIYRRIDG
+                     KWMRELILYDKEEIRRVWRQANNGEDATAGLTHIMIWHSNLNDATYQRTRALVRTGMD
+                     PRMCSLMQGSTLPRRSGAAGAAVKGVGTIAMELIRMIKRGINDRNFWRGENGRRTRVA
+                     YERMCNILKGKFQTAAQRAMMDQVRESRNPGNAEIEDLIFLARSALILRGSVAHKSCL
+                     PACVYGLAVASGYDFEREGYSLVGIDPFKLLQNSQVVSLMRPNENPAHKSQLVWMACH
+                     SAAFEDLRVSSFIRGKKVIPRGKLSTRGVQIASNENVETMDSNTLELRSRYWAIRTRS
+                     GGNTNQQKASAGQISVQPTFSVQRNLPFERATVMAAFSGNNEGRTSDMRTEVIRMMES
+                     AKPEDLSFQGRGVFELSDEKATNPIVPSFDMSNEGSYFFGDNAEEYDS"
+     misc_feature    1..1497
+                     /db_xref="IRD:IRD-A01076175.5"
+ORIGIN      
+        1 atggcgtctc aaggcaccaa acgatcatat gaacaaatgg agactggtgg ggagcgccag
+       61 gatgccacag aaatcagagc atctgtcgga agaatgattg gtggaatcgg gagattctac
+      121 atccaaatgt gcactgaact caaactcagt gattatgatg gacgactaat ccagaatagc
+      181 ataacaatag agaggatggt gctttctgct tttgatgaga gaagaaataa atacctagaa
+      241 gagcatccca gtgctgggaa ggaccctaag aaaacaggag gacccatata tagaagaata
+      301 gacggaaagt ggatgagaga actcatcctt tatgacaaag aagaaataag gagagtttgg
+      361 cgccaagcaa acaatggcga agatgcaaca gcaggtctta ctcatatcat gatttggcat
+      421 tccaacctga atgatgccac atatcagaga acaagagcgc ttgttcgcac cggaatggat
+      481 cccagaatgt gctctctaat gcaaggttca acacttccca gaaggtctgg tgccgcaggt
+      541 gctgcggtga aaggagttgg aacaatagca atggagttaa tcagaatgat caaacgtgga
+      601 atcaatgacc gaaatttctg gaggggtgaa aatggacgaa ggacaagggt tgcttatgaa
+      661 agaatgtgca atatcctcaa aggaaaattt caaacagctg cccagagggc aatgatggat
+      721 caagtaagag aaagtcgaaa cccaggaaac gctgagattg aagacctcat tttcctggca
+      781 cggtcagcac tcattctgag gggatcagtt gcacataaat cctgcctgcc tgcttgtgtg
+      841 tatgggcttg cagtagcaag tgggtatgac tttgaaaggg aagggtactc actggtcggg
+      901 atagacccat tcaaattact ccaaaacagc caagtggtca gcctgatgag accaaatgaa
+      961 aacccagctc acaagagtca attggtgtgg atggcatgcc actctgctgc atttgaagat
+     1021 ttaagagtat caagtttcat aagaggaaag aaagtgattc caagaggaaa gctttccaca
+     1081 agaggggtcc agattgcttc aaatgagaat gtggaaacca tggactccaa taccctggaa
+     1141 ctaagaagca gatactgggc cataaggacc aggagtggag gaaataccaa tcaacaaaag
+     1201 gcatccgcag gccagatcag tgtgcagcct acattctcag tgcagcgaaa tctccctttt
+     1261 gaaagagcaa ccgttatggc agcattcagc gggaacaatg aaggacggac atccgacatg
+     1321 cgaacagaag ttataagaat gatggaaagt gcaaagccag aagatttgtc cttccagggg
+     1381 cggggagtct tcgagctctc ggacgaaaag gcaacgaacc cgatcgtgcc ttcctttgac
+     1441 atgagtaatg aagggtctta tttcttcgga gacaatgcag aggagtatga cagttga
+//
+

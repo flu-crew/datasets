@@ -7,7 +7,7 @@ flu-crew datasets used in manuscripts, tutorials, and other work.
 Variant call output for:
 Arruda, B., Vincent Baker, A.L., Buckley, A., Torchetti, M., Hines Bergeson, N., Killian, M.L., Lantz, K., Anderson, T.K. Avian and mammalian isolates of highly pathogenic avian influenza belonging to the goose/Guangdong 2.3.4.4b hemagglutinin phylogenetic clade infect swine and mammalian isolates transmit to limited contacts.
 
-Raw FASTQ files for samples are available at the USDA AGData Commons here:
+Raw FASTQ files for samples are available at FigShare - for immediate access please email tavis.anderson@usda.gov:
 URL pending.
 
 The consensus genomes for the four strains are provided at NCBI Genbank or are hosted at GISAID. We gratefully acknowledge all data contributors, i.e., the Authors and their Originating laboratories responsible for obtaining the specimens, and their Submitting laboratories for generating the genetic sequence and metadata and sharing via the GISAID Initiative, on which components of this research is based. The GISAID acknowledgment table is provided in this repo.

@@ -1,0 +1,228 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=126;
+	taxlabels
+	'EPI1348601|A/New_Hampshire/02/2019|H3N2|2019-01-01'[&!color=#00cccc]
+	'EPI14925539|A/Michigan/UOM150524133648/2018|H3N2|2018-01-01'[&!color=#000000]
+	'EPI14925587|A/Michigan/UOM150524133696/2018|H3N2|2018-01-17'[&!color=#000000]
+	'EPI14925657|A/Michigan/UOM150524133727/2018|H3N2|2018-01-26'[&!color=#000000]
+	'EPI17049059|A/New_York/PV00528/2018|H3N2|2018-01-01'[&!color=#000000]
+	'EPI17053830|A/New_York/PV02674/2019|H3N2|2019-01-01'
+	'EPI17054256|A/New_York/PV03358/2019|H3N2|2019-03-01'
+	'EPI17054366|A/New_York/PV03405/2019|H3N2|2019-03-01'
+	'EPI17054482|A/New_York/PV03730/2019|H3N2|2019-03-01'[&!color=#000000]
+	'EPI17054783|A/New_York/PV04392/2019|H3N2|2019-09-01'[&!color=#000000]
+	'EPI1924447|A/Newcastle/1/2021|H3N2|2021-09-30'[&!color=#00cccc]
+	'EPI296098|A/South_Dakota/01/2018|H3N2|2018-01-02'[&!color=#000000]
+	'EPI296564|A/Maryland/04/2018|H3N2|2018-01-14'[&!color=#000000]
+	'EPI299927|A/Georgia/04/2018|H3N2|2018-01-14'[&!color=#000000]
+	'EPI299930|A/Georgia/10/2018|H3N2|2018-01-22'[&!color=#000000]
+	'EPI300803|A/Michigan/26/2018|H3N2|2018-01-26'[&!color=#000000]
+	'EPI311646|A/Minnesota/32/2018|H3N2|2018-04-16'[&!color=#000000]
+	'EPI313716|A/Illinois/41/2018|H3N2|2018-02-21'
+	'EPI321903|A/Michigan/57/2018|H3N2|2018-03-09'
+	'EPI326925|A/New_York/PV00717/2018|H3N2|2018-09-01'[&!color=#000000]
+	'EPI327319|A/Baltimore/P0234/2018|H3N2|2018-01-03'[&!color=#000000]
+	'EPI327323|A/Baltimore/P0239/2018|H3N2|2018-01-08'[&!color=#000000]
+	'EPI330492|A/Ohio/26/2018|H3N2|2018-07-29'[&!color=#000000]
+	'EPI331131|A/Michigan/401/2018|H3N2|2018-09-30'[&!color=#000000]
+	'EPI331406|A/Iowa/60/2018|H3N2|2018-10-17'[&!color=#000000]
+	'EPI333739|A/Washington/189/2018|H3N2|2018-10-26'[&!color=#000000]
+	'EPI333767|A/Georgia/25/2018|H3N2|2018-11-29'
+	'EPI334117|A/Missouri/57/2018|H3N2|2018-12-12'
+	'EPI336550|A/New_Mexico/29/2018|H3N2|2018-12-11'
+	'EPI338638|A/Texas/146/2018|H3N2|2018-12-04'
+	'EPI341039|A/Georgia/42/2018|H3N2|2018-12-09'
+	'EPI344668|A/Texas/40/2019|H3N2|2019-02-04'
+	'EPI346252|A/Vermont/09/2019|H3N2|2019-02-11'[&!color=#000000]
+	'EPI358387|A/Wisconsin/58/2018|H3N2|2018-02-15'[&!color=#000000]
+	'EPI358784|A/Washington/10/2019|H3N2|2019-01-09'
+	'EPI358856|A/Texas/34/2019|H3N2|2019-01-09'
+	'EPI359090|A/Michigan/119/2019|H3N2|2019-02-16'
+	'EPI359390|A/Pennsylvania/710/2019|H3N2|2019-03-03'
+	'EPI359429|A/Pennsylvania/780/2019|H3N2|2019-03-12'
+	'EPI359507|A/Michigan/194/2019|H3N2|2019-03-05'[&!color=#000000]
+	'EPI359558|A/Wisconsin/121/2019|H3N2|2019-02-20'[&!color=#000000]
+	'EPI359650|A/Michigan/256/2019|H3N2|2019-03-13'
+	'EPI360010|A/Washington/267/2019|H3N2|2019-02-25'
+	'EPI360057|A/Washington/343/2019|H3N2|2019-03-05'
+	'EPI360128|A/Washington/403/2019|H3N2|2019-03-11'
+	'EPI360253|A/Washington/08/2018|H3N2|2018-01-02'[&!color=#000000]
+	'EPI360355|A/Pennsylvania/36/2018|H3N2|2018-01-08'[&!color=#000000]
+	'EPI360511|A/Michigan/282/2018|H3N2|2018-02-06'
+	'EPI361487|A/Wisconsin/432/2018|H3N2|2018-02-23'[&!color=#000000]
+	'EPI361516|A/Wisconsin/449/2018|H3N2|2018-02-28'[&!color=#000000]
+	'EPI361781|A/Pennsylvania/218/2018|H3N2|2018-01-15'[&!color=#000000]
+	'EPI361853|A/Pennsylvania/377/2018|H3N2|2018-02-02'[&!color=#000000]
+	'EPI362372|A/Ohio/15/2019|H3N2|2019-03-20'
+	'EPI362374|A/Kansas/19/2019|H3N2|2019-03-12'
+	'EPI365761|A/Alaska/24/2019|H3N2|2019-04-12'
+	'EPI366482|A/Mississippi/8607/2019|H3N2|2019-01-28'
+	'EPI368932|A/New_York/9521/2019|H3N2|2019-04-03'
+	'EPI370202|A/Texas/8391/2019|H3N2|2019-01-29'
+	'EPI370596|A/Nebraska/7853/2019|H3N2|2019-01-04'
+	'EPI372044|A/New_Jersey/7726/2018|H3N2|2018-12-31'[&!color=#000000]
+	'EPI372055|A/New_York/7737/2018|H3N2|2018-12-15'
+	'EPI376597|A/Texas/6983/2018|H3N2|2018-01-04'[&!color=#000000]
+	'EPI377639|A/Florida/56/2019|H3N2|2019-04-23'[&!color=#000000]
+	'EPI377671|A/Arizona/27/2019|H3N2|2019-05-06'
+	'EPI378037|A/Iowa/35/2019|H3N2|2019-07-08'[&!color=#000000]
+	'EPI394877|A/Arizona/37/2019|H3N2|2019-09-13'[&!color=#000000]
+	'EPI398576|A/Washington/647/2019|H3N2|2019-06-23'[&!color=#000000]
+	'EPI398819|A/Oregon/26/2019|H3N2|2019-09-23'[&!color=#000000]
+	'EPI398855|A/Maine/33/2019|H3N2|2019-10-04'[&!color=#000000]
+	'EPI400979|A/Illinois/36/2019|H3N2|2019-11-03'[&!color=#000000]
+	'EPI402763|A/Arizona/40/2019|H3N2|2019-09-17'[&!color=#000000]
+	'EPI404604|A/California/01/2020|H3N2|2020-01-02'
+	'EPI4055910|A/District_of_Columbia/T0212/2018|H3N2|2018-09-01'[&!color=#000000]
+	'EPI416791|A/District_Of_Columbia/10/2020|H3N2|2020-02-10'[&!color=#000000]
+	'EPI416792|A/District_Of_Columbia/11/2020|H3N2|2020-02-16'[&!color=#000000]
+	'EPI421095|A/Iowa/20/2020|H3N2|2020-02-22'[&!color=#000000]
+	'EPI513639|A/Hawaii/28/2020|H3N2|2020-07-01'
+	'EPI539576|A/Hong_Kong/4801/2014|H3N2|2014-02-26'[&!color=#00cccc]
+	'KJ941380|A/swine/Missouri/A01410819/2014|H3N1|2014-01-15'[&!color=#00cc00]
+	'KM821347|A/Victoria/361/2011|H3N2|2011-10-24'[&!color=#00cccc]
+	'KP137795|A/swine/Missouri/A01476459/2012|H3N2|2012-11-15'[&!color=#00cc00]
+	'KP901306|A/swine/Missouri/A01840724/2015|H3N2|2015-02-05'[&!color=#00cc00]
+	'KT965368|A/swine/Iowa/A01944136/2015|H3N2|2015-09-28'[&!color=#00cc00]
+	'KX981496|A/swine/Ohio/16TOSU4788/2016|H3N2|2016-07-28'[&!color=#00cc00]
+	'KY174896|A/swine/South_Dakota/A01678473/2016|H3N2|2016-11-04'[&!color=#00cc00]
+	'KY465585|A/swine/Missouri/A01671485/2016|H3N2|2016-12-15'[&!color=#00cc00]
+	'MF801569|A/swine/Ohio/A01354299/2017|H3N2|2017-07-14'[&!color=#00cc00]
+	'MG967547|A/swine/Nebraska/A01785407/2018|H3N2|2018-01-04|2010.1'[&!color=#9900ff]
+	'MG974450|A/Kansas/14/2017|H3N2|2017-12-14'[&!color=#00cccc]
+	'MH157021|A/swine/Minnesota/A01785463/2018|H3N2|2018-03-09|2010.1'[&!color=#9900ff]
+	'MH160330|A/swine/Illinois/A02154869/2018|H3N2|2018-03-09|2010.1'[&!color=#9900ff]
+	'MH279898|A/swine/Kansas/A01378040/2018|H3N2|2018-04-16|1990.4.a'[&!color=#cc00cc]
+	'MK024145|A/swine/Texas/A01785616/2018|H3N2|2018-09-11|1990.4.a'[&!color=#cc00cc]
+	'MK024155|A/swine/Minnesota/A01785619/2018|H3N2|2018-09-10|2010.1'[&!color=#9900ff]
+	'MK358874|A/swine/Iowa/A02270002/2018|H3N2|2018-11-14|1990.4.a'[&!color=#cc00cc]
+	'MK388514|A/swine/Texas/A01785793/2018|H3N2|2018-12-19|2010.1'[&!color=#9900ff]
+	'MK640444|A/swine/Nebraska/A02430692/2019|H3N2|2019-02-19|1990.4.a'[&!color=#cc00cc]
+	'MK640454|A/swine/Illinois/A02430687/2019|H3N2|2019-02-21|2010.1'[&!color=#9900ff]
+	'MK786519|A/Texas/8386/2019|H3N2|2019-01-28'[&!color=#00cccc]
+	'MK840059|A/New_York/8492/2019|H3N2|2019-02-05'[&!color=#00cccc]
+	'MK856387|A/Georgia/06/2019|H3N2|2019-01-24'[&!color=#00cccc]
+	'MK899266|A/Illinois/NHRC-OID_18734/2019|H3N2|2019-02-22'[&!color=#00cccc]
+	'MK961044|A/Utah/9440/2019|H3N2|2019-03-19'[&!color=#00cccc]
+	'MN001528|A/Kansas/09/2019|H3N2|2019-02-11'[&!color=#00cccc]
+	'MN128331|A/swine/Iowa/A02478529/2019|H3N2|2019-06-05|1990.4.a'[&!color=#cc00cc]
+	'MN221693|A/Arkansas/22/2019|H3N2|2019-03-13'[&!color=#00cccc]
+	'MN224991|A/swine/Iowa/A02478575/2019|H3N2|2019-07-01|2010.1'[&!color=#9900ff]
+	'MN247045|A/Kansas/15/2019|H3N2|2019-02-25'[&!color=#00cccc]
+	'MN372762|A/Illinois/27/2019|H3N2|2019-04-09'[&!color=#00cccc]
+	'MN436839|A/swine/Virginia/A02478581/2019|H3N2|2019-04-22'[&!color=#00cc00]
+	'MN517776|A/swine/Utah/A02478641/2019|H3N2|2019-09-03|2010.1'[&!color=#9900ff]
+	'MN608553|A/swine/Michigan/A02478737/2019|H3N2|2019-06-28'[&!color=#00cc00]
+	'MN608561|A/swine/Virginia/A02478738/2019|H3N2|2019-08-29'[&!color=#00cc00]
+	'MN615408|A/swine/Illinois/A02478739_b/2019|H3N2|2019-06-26'[&!color=#00cc00]
+	'MN646208|A/swine/North_Carolina/A02245294/2019|H3N2|2019-10-15'[&!color=#00cc00]
+	'MN999911|A/swine/Indiana/A02478978/2019|H3N2|2019-12-31|1990.4.a'[&!color=#cc00cc]
+	'MT052068|A/swine/Illinois/A02479007/2020|H3N2|2020-01-21'[&!color=#00cc00]
+	'MT077031|A/swine/Kansas/A02479028/2020|H3N2|2020-01-24|2010.1'[&!color=#9900ff]
+	'MT476193|A/swine/Minnesota/A02479268/2020|H3N2|2020-04-23'[&!color=#00cc00]
+	'MT476674|A/swine/North_Carolina/A02479237/2020|H3N2|2020-04-16|1990.4.a'[&!color=#cc00cc]
+	'MT572894|A/swine/Iowa/A02479341/2020|H3N2|2020-05-13|1990.4.a'[&!color=#cc00cc]
+	'MT792676|A/swine/Kansas/A02245675/2020|H3N2|2020-06-24'[&!color=#00cc00]
+	'MW221311|A/swine/Nebraska/A02524731/2020|H3N2|2020-10-13|2010.1'[&!color=#9900ff]
+	'OM310825|A/swine/North_Carolina/CL3214/2018|H3N2|2018-01-01|1990.4.a'[&!color=#cc00cc]
+	'ON774573|A/swine/Iowa/20TOSU1994/2020|H3N2|2020-07-09|1990.4.a'[&!color=#cc00cc]
+	'OQ350032|A/Switzerland/9715293/2013|H3N2|2013'[&!color=#00cccc]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('MN128331|A/swine/Iowa/A02478529/2019|H3N2|2019-06-05|1990.4.a'[&!color=#cc00cc]:0.001182,(('MT476674|A/swine/North_Carolina/A02479237/2020|H3N2|2020-04-16|1990.4.a'[&!color=#cc00cc]:1.0E-6,'MN646208|A/swine/North_Carolina/A02245294/2019|H3N2|2019-10-15'[&!color=#33cc00]:0.001774)[&!color=#cc00cc]:0.001181,((('MK024145|A/swine/Texas/A01785616/2018|H3N2|2018-09-11|1990.4.a'[&!color=#cc00cc]:0.001131,(('OM310825|A/swine/North_Carolina/CL3214/2018|H3N2|2018-01-01|1990.4.a'[&!color=#cc00cc]:0.012352,('MK358874|A/swine/Iowa/A02270002/2018|H3N2|2018-11-14|1990.4.a'[&!color=#cc00cc]:0.018036,'MH279898|A/swine/Kansas/A01378040/2018|H3N2|2018-04-16|1990.4.a'[&!color=#cc00cc]:0.012456)[&!color=#cc00cc]:0.008593)[&!color=#cc00cc]:0.001321,('MK640444|A/swine/Nebraska/A02430692/2019|H3N2|2019-02-19|1990.4.a'[&!color=#cc00cc]:0.035103,('MT052068|A/swine/Illinois/A02479007/2020|H3N2|2020-01-21'[&!color=#33cc00]:0.059148,('EPI513639|A/Hawaii/28/2020|H3N2|2020-07-01':0.043806,(((((((('MW221311|A/swine/Nebraska/A02524731/2020|H3N2|2020-10-13|2010.1'[&!color=#9900ff]:0.015778,(('MG967547|A/swine/Nebraska/A01785407/2018|H3N2|2018-01-04|2010.1'[&!color=#9900ff]:1.0E-6,'MF801569|A/swine/Ohio/A01354299/2017|H3N2|2017-07-14'[&!color=#33cc00]:1.0E-6)[&!color=#9900ff]:0.001202,'MT476193|A/swine/Minnesota/A02479268/2020|H3N2|2020-04-23'[&!color=#33cc00]:0.007759)[&!color=#9900ff]:5.78E-4)[&!color=#9900ff]:4.01E-4,'MK640454|A/swine/Illinois/A02430687/2019|H3N2|2019-02-21|2010.1'[&!color=#9900ff]:0.008542)[&!color=#9900ff]:0.007336,('MN224991|A/swine/Iowa/A02478575/2019|H3N2|2019-07-01|2010.1'[&!color=#9900ff]:0.006,'MT077031|A/swine/Kansas/A02479028/2020|H3N2|2020-01-24|2010.1'[&!color=#9900ff]:0.010354)[&!color=#9900ff]:0.004189)[&!color=#9900ff]:5.96E-4,'KT965368|A/swine/Iowa/A01944136/2015|H3N2|2015-09-28'[&!color=#33cc00]:0.004155)[&!color=#9900ff]:1.0E-6,(((('MK024155|A/swine/Minnesota/A01785619/2018|H3N2|2018-09-10|2010.1'[&!color=#9900ff]:0.005253,('MH157021|A/swine/Minnesota/A01785463/2018|H3N2|2018-03-09|2010.1'[&!color=#9900ff]:0.00664,'MN517776|A/swine/Utah/A02478641/2019|H3N2|2019-09-03|2010.1'[&!color=#9900ff]:0.013244)[&!color=#9900ff]:0.001197)[&!color=#9900ff]:0.001254,'KY174896|A/swine/South_Dakota/A01678473/2016|H3N2|2016-11-04'[&!color=#33cc00]:0.00477)[&!color=#9900ff]:0.001784,((('MH160330|A/swine/Illinois/A02154869/2018|H3N2|2018-03-09|2010.1'[&!color=#9900ff]:0.004141,'KY465585|A/swine/Missouri/A01671485/2016|H3N2|2016-12-15'[&!color=#33cc00]:0.002953)[&!color=#9900ff]:1.0E-6,'KX981496|A/swine/Ohio/16TOSU4788/2016|H3N2|2016-07-28'[&!color=#9900ff]:1.0E-6)[&!color=#9900ff]:1.0E-6,('MK388514|A/swine/Texas/A01785793/2018|H3N2|2018-12-19|2010.1'[&!color=#9900ff]:0.00114,'MT792676|A/swine/Kansas/A02245675/2020|H3N2|2020-06-24'[&!color=#33cc00]:0.009656)[&!color=#9900ff]:0.009154)[&!color=#9900ff]:5.88E-4)[&!color=#9900ff]:5.88E-4,'KP901306|A/swine/Missouri/A01840724/2015|H3N2|2015-02-05'[&!color=#33cc00]:5.87E-4)[&!color=#9900ff]:0.001167)[&!color=#9900ff]:0.004744,'KJ941380|A/swine/Missouri/A01410819/2014|H3N1|2014-01-15'[&!color=#33cc00]:0.003605)[&!color=#9900ff]:0.011286,'KP137795|A/swine/Missouri/A01476459/2012|H3N2|2012-11-15'[&!color=#33cc00]:0.003526)[&!color=#9900ff]:0.012785,(((((((((((((('EPI365761|A/Alaska/24/2019|H3N2|2019-04-12':5.78E-4,'EPI360010|A/Washington/267/2019|H3N2|2019-02-25':5.79E-4):1.0E-6,('EPI372055|A/New_York/7737/2018|H3N2|2018-12-15':1.0E-6,'MN436839|A/swine/Virginia/A02478581/2019|H3N2|2019-04-22'[&!color=#33cc00]:5.92E-4):1.0E-6):1.0E-6,'EPI341039|A/Georgia/42/2018|H3N2|2018-12-09':1.0E-6):1.0E-6,((('EPI359429|A/Pennsylvania/780/2019|H3N2|2019-03-12':5.78E-4,('MN247045|A/Kansas/15/2019|H3N2|2019-02-25'[&!color=#00cccc]:1.0E-6,'MN001528|A/Kansas/09/2019|H3N2|2019-02-11'[&!color=#00cccc]:5.79E-4)[&!color=#00cccc]:5.78E-4):1.0E-6,('EPI1348601|A/New_Hampshire/02/2019|H3N2|2019-01-01'[&!color=#00cccc]:5.7E-4,'EPI366482|A/Mississippi/8607/2019|H3N2|2019-01-28':0.001174):8.0E-6):1.0E-6,('MN221693|A/Arkansas/22/2019|H3N2|2019-03-13':1.0E-6,(('EPI359090|A/Michigan/119/2019|H3N2|2019-02-16':1.0E-6,('EPI362372|A/Ohio/15/2019|H3N2|2019-03-20':5.78E-4,('MN615408|A/swine/Illinois/A02478739_b/2019|H3N2|2019-06-26'[&!color=#33cc00]:0.001178,'MN608553|A/swine/Michigan/A02478737/2019|H3N2|2019-06-28'[&!color=#33cc00]:1.0E-6)[&!color=#33cc00]:0.002357):1.0E-6):0.001157,(('MK899266|A/Illinois/NHRC-OID_18734/2019|H3N2|2019-02-22':5.88E-4,'EPI368932|A/New_York/9521/2019|H3N2|2019-04-03':5.89E-4):5.87E-4,('MN608561|A/swine/Virginia/A02478738/2019|H3N2|2019-08-29'[&!color=#33cc00]:0.001175,'MK840059|A/New_York/8492/2019|H3N2|2019-02-05'[&!color=#00cccc]:1.0E-6):5.87E-4):1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,(((((('EPI358856|A/Texas/34/2019|H3N2|2019-01-09':5.78E-4,('EPI377671|A/Arizona/27/2019|H3N2|2019-05-06':5.78E-4,('EPI338638|A/Texas/146/2018|H3N2|2018-12-04':1.0E-6,('EPI344668|A/Texas/40/2019|H3N2|2019-02-04':5.79E-4,'MN372762|A/Illinois/27/2019|H3N2|2019-04-09':0.001157):5.79E-4):1.0E-6):5.78E-4):1.0E-6,'EPI358784|A/Washington/10/2019|H3N2|2019-01-09':1.0E-6):1.0E-6,('EPI370202|A/Texas/8391/2019|H3N2|2019-01-29':1.0E-6,'MK961044|A/Utah/9440/2019|H3N2|2019-03-19':1.0E-6):1.0E-6):1.0E-6,'MK786519|A/Texas/8386/2019|H3N2|2019-01-28'[&!color=#00cccc]:0.001174):1.0E-6,'EPI17054366|A/New_York/PV03405/2019|H3N2|2019-03-01':5.7E-4):0.001142,'EPI17053830|A/New_York/PV02674/2019|H3N2|2019-01-01':1.0E-6):1.0E-6):1.0E-6,(('EPI333767|A/Georgia/25/2018|H3N2|2018-11-29':5.78E-4,'EPI334117|A/Missouri/57/2018|H3N2|2018-12-12':0.001157):1.0E-6,'MK856387|A/Georgia/06/2019|H3N2|2019-01-24'[&!color=#00cccc]:0.001159):1.0E-6):0.001142,('EPI359650|A/Michigan/256/2019|H3N2|2019-03-13':5.78E-4,'EPI404604|A/California/01/2020|H3N2|2020-01-02':0.003483):1.0E-6):0.001719,('EPI336550|A/New_Mexico/29/2018|H3N2|2018-12-11':1.0E-6,'EPI359390|A/Pennsylvania/710/2019|H3N2|2019-03-03':5.78E-4):5.78E-4):5.71E-4,(('EPI321903|A/Michigan/57/2018|H3N2|2018-03-09':5.78E-4,'EPI313716|A/Illinois/41/2018|H3N2|2018-02-21':5.78E-4):1.0E-6,'MG974450|A/Kansas/14/2017|H3N2|2017-12-14':1.0E-6):1.0E-6):1.0E-6,(((('EPI360128|A/Washington/403/2019|H3N2|2019-03-11':1.0E-6,('EPI362374|A/Kansas/19/2019|H3N2|2019-03-12':5.77E-4,'EPI370596|A/Nebraska/7853/2019|H3N2|2019-01-04':1.0E-6):1.0E-6):1.0E-6,'EPI360057|A/Washington/343/2019|H3N2|2019-03-05':1.0E-6):1.0E-6,'EPI17054256|A/New_York/PV03358/2019|H3N2|2019-03-01':1.0E-6):0.001116,'EPI1924447|A/Newcastle/1/2021|H3N2|2021-09-30'[&!color=#00cccc]:0.01341):0.002321):0.005837,'EPI360511|A/Michigan/282/2018|H3N2|2018-02-06'[&!color=#00cccc]:0.005313):0.00571,'OQ350032|A/Switzerland/9715293/2013|H3N2|2013'[&!color=#00cccc]:0.001312):0.00489,(((((('EPI311646|A/Minnesota/32/2018|H3N2|2018-04-16':0.001161,('EPI326925|A/New_York/PV00717/2018|H3N2|2018-09-01':5.79E-4,'EPI361853|A/Pennsylvania/377/2018|H3N2|2018-02-02':0.001162):0.001748):1.0E-6,'EPI4055910|A/District_of_Columbia/T0212/2018|H3N2|2018-09-01':1.0E-6):1.0E-6,(((('EPI300803|A/Michigan/26/2018|H3N2|2018-01-26':1.0E-6,('EPI361516|A/Wisconsin/449/2018|H3N2|2018-02-28':5.8E-4,'EPI360355|A/Pennsylvania/36/2018|H3N2|2018-01-08':5.8E-4):1.0E-6):1.0E-6,'EPI14925587|A/Michigan/UOM150524133696/2018|H3N2|2018-01-17':5.71E-4):1.0E-6,(('EPI296098|A/South_Dakota/01/2018|H3N2|2018-01-02':1.0E-6,('EPI361487|A/Wisconsin/432/2018|H3N2|2018-02-23':5.8E-4,'EPI358387|A/Wisconsin/58/2018|H3N2|2018-02-15':0.001745):1.0E-6):1.0E-6,((((('EPI361781|A/Pennsylvania/218/2018|H3N2|2018-01-15':1.0E-6,'EPI333739|A/Washington/189/2018|H3N2|2018-10-26':0.001161):1.0E-6,(('EPI299930|A/Georgia/10/2018|H3N2|2018-01-22':5.8E-4,'EPI296564|A/Maryland/04/2018|H3N2|2018-01-14':5.8E-4):1.0E-6,'EPI376597|A/Texas/6983/2018|H3N2|2018-01-04':1.0E-6):1.0E-6):1.0E-6,'EPI360253|A/Washington/08/2018|H3N2|2018-01-02':1.0E-6):1.0E-6,'EPI327323|A/Baltimore/P0239/2018|H3N2|2018-01-08':5.76E-4):1.0E-6,'EPI14925539|A/Michigan/UOM150524133648/2018|H3N2|2018-01-01':1.0E-6):5.71E-4):5.71E-4):5.71E-4,'EPI14925657|A/Michigan/UOM150524133727/2018|H3N2|2018-01-26':0.002289):1.0E-6):0.001146,'EPI17049059|A/New_York/PV00528/2018|H3N2|2018-01-01':1.0E-6):0.00781,('EPI299927|A/Georgia/04/2018|H3N2|2018-01-14':0.007335,((((('EPI372044|A/New_Jersey/7726/2018|H3N2|2018-12-31':0.002357,'EPI17054783|A/New_York/PV04392/2019|H3N2|2019-09-01':0.003461):0.002913,('EPI331406|A/Iowa/60/2018|H3N2|2018-10-17':5.79E-4,(((((('EPI398576|A/Washington/647/2019|H3N2|2019-06-23':1.0E-6,(('EPI398819|A/Oregon/26/2019|H3N2|2019-09-23':5.78E-4,('EPI394877|A/Arizona/37/2019|H3N2|2019-09-13':1.0E-6,'EPI402763|A/Arizona/40/2019|H3N2|2019-09-17':1.0E-6):1.0E-6):5.78E-4,'EPI400979|A/Illinois/36/2019|H3N2|2019-11-03':0.001738):1.0E-6):1.0E-6,'EPI398855|A/Maine/33/2019|H3N2|2019-10-04':5.78E-4):5.78E-4,'EPI378037|A/Iowa/35/2019|H3N2|2019-07-08':1.0E-6):5.78E-4,'EPI359558|A/Wisconsin/121/2019|H3N2|2019-02-20':1.0E-6):0.001158,'EPI359507|A/Michigan/194/2019|H3N2|2019-03-05':0.002321):1.0E-6,'EPI17054482|A/New_York/PV03730/2019|H3N2|2019-03-01':5.71E-4):5.71E-4):0.001136):0.002905,('EPI346252|A/Vermont/09/2019|H3N2|2019-02-11':0.002905,(('EPI331131|A/Michigan/401/2018|H3N2|2018-09-30':5.78E-4,'EPI377639|A/Florida/56/2019|H3N2|2019-04-23':0.00174):1.0E-6,(('EPI416792|A/District_Of_Columbia/11/2020|H3N2|2020-02-16':0.001166,'EPI421095|A/Iowa/20/2020|H3N2|2020-02-22':5.77E-4):0.004705,'EPI416791|A/District_Of_Columbia/10/2020|H3N2|2020-02-10':0.005887):0.001152):1.0E-6):5.73E-4):0.001137,'EPI330492|A/Ohio/26/2018|H3N2|2018-07-29':0.002346):0.002912,'EPI327319|A/Baltimore/P0234/2018|H3N2|2018-01-03':0.005276):0.005011):0.001162):0.00148,'EPI539576|A/Hong_Kong/4801/2014|H3N2|2014-02-26'[&!color=#00cccc]:2.0E-6):0.00566):0.004625,'KM821347|A/Victoria/361/2011|H3N2|2011-10-24'[&!color=#00cccc]:0.001776):0.009023):0.058041)[&!color=#cc00cc]:0.035833)[&!color=#cc00cc]:0.018706)[&!color=#cc00cc]:9.88E-4)[&!color=#cc00cc]:0.019062)[&!color=#cc00cc]:0.001838,'MT572894|A/swine/Iowa/A02479341/2020|H3N2|2020-05-13|1990.4.a'[&!color=#cc00cc]:0.001782)[&!color=#cc00cc]:5.72E-4,'ON774573|A/swine/Iowa/20TOSU1994/2020|H3N2|2020-07-09|1990.4.a'[&!color=#cc00cc]:0.007821)[&!color=#cc00cc]:0.001203)[&!color=#cc00cc]:1.0E-6,'MN999911|A/swine/Indiana/A02478978/2019|H3N2|2019-12-31|1990.4.a'[&!color=#cc00cc]:0.001182);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Adobe Devanagari";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=374;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Adobe Devanagari";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

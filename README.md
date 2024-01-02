@@ -2,6 +2,14 @@
 
 flu-crew datasets used in manuscripts, tutorials, and other work.
 
+## h3-2019-spillover
+
+Phylogenetic analysis files for:
+Powell, J.D., Thomas, M.N., Anderson, T.K., Zeller, M.A., Gauger, P.C., and Vincent Baker, A.L. A 2018-2019 human seasonal H3N2 influenza A virus spillover into swine with demonstrated virus transmission in pigs.
+
+We gratefully acknowledge all data contributors, i.e., the Authors and their Originating laboratories responsible for obtaining the specimens, and their Submitting laboratories for generating the genetic sequence and metadata and sharing via the GISAID Initiative, on which components of this research is based. The GISAID acknowledgment table is provided in this repo.
+
+
 ## h5n1-hpai
 
 Variant call output for:

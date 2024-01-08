@@ -1,0 +1,185 @@
+<!-- table styling -->
+<style>
+th, td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+table {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+/*  uncomment to make even rows gray
+tr:nth-child(even) {
+  background-color: #E0E0E0;
+}
+*/
+</style>
+
+
+# Quarterly report diagnostics
+# Modified from USDA Surveillance Report code (https://github.com/flu-crew)
+
+```{r}
+# ===== Variables
+# two digit fiscal year, e.g., 22 for 2022
+FISCAL_YEAR=23
+# single digit quarter: 1,2,3 or 4
+FISCAL_QUARTER=1
+# The primary input file
+infile <- "all.txt"
+# Source additional R functions (these should perhaps be merged into octoflushow)
+source("rfunctions.R")
+```
+
+
+
+```{r,echo=FALSE}
+library(magrittr)
+library(lubridate)
+library(devtools)
+
+knitr::opts_chunk$set(
+  fig.width  = 6,
+  fig.height = 3.5,
+  size       = "footnotesize",
+  fig.align  = "center",
+  cache      = FALSE,
+  echo       = FALSE,
+  warning    = FALSE,
+  message    = FALSE
+)
+
+barchart_theme = ggplot2::theme(
+    text        = ggplot2::element_text(size = 18),
+    axis.text.x = ggplot2::element_text(size = 18),
+    axis.text.y = ggplot2::element_text(size = 18),
+    legend.text = ggplot2::element_text(size = 18),
+    strip.text  = ggplot2::element_text(size = 18)
+  )
+```
+
+
+```{r}
+#requires octoflushow (https://github.com/flu-crew/octoflushow)
+#devtools::install_github("flu-crew/octoflushow")
+my.data <- octoflushow::load_file(infile)
+
+my.data$H1 <- as.character(my.data$H1)
+my.data$H3 <- as.character(my.data$H3)
+my.data$N1 <- as.character(my.data$N1)
+my.data$N2 <- as.character(my.data$N2)
+my.data$Constellation <- as.character(my.data$Constellation)
+
+conflicting_subtype_strains <- c(
+  #subset(my.data, grepl("H1N.", Subtype, perl=TRUE) && is.na(H1))$Strain,
+  #subset(my.data, grepl("H3N.", Subtype, perl=TRUE) && is.na(H3))$Strain,
+  #subset(my.data, grepl("H.N1", Subtype, perl=TRUE) && is.na(N1))$Strain,
+  #subset(my.data, grepl("H.N2", Subtype, perl=TRUE) && is.na(N2))$Strain
+)
+if (length(conflicting_subtype_strains) > 0){
+  warning(paste0("The following strains have conflicting subtype annotations and will be removed:", paste0(conflicting_subtype_strains, sep=", ")))
+  my.data <- subset(my.data, ! (Strain %in% conflicting_subtype_strains))
+}
+
+my.data <- my.data %>%
+  subset(is.na(H1) | H1 != "mixed") %>%
+  subset(is.na(N1) | N1 != "mixed") %>%
+  subset(is.na(H3) | H3 != "mixed") %>%
+  subset(is.na(N2) | N2 != "mixed")
+
+# This file will be used for command line data work
+readr::write_tsv(my.data, "clean.txt")
+
+# ==== Colors and Order of names
+# Stacked bar chart for phylocluster by month
+H1_palette <- octoflushow::get_palette("H1")
+H3_palette <- octoflushow::get_palette("H3")
+N1_palette <- octoflushow::get_palette("N1")
+N2_palette <- octoflushow::get_palette("N2")
+
+H3_order <- names(H3_palette)
+N1_order <- names(N1_palette)
+
+internalgene_palette <- octoflushow::get_palette("PB2")
+subtype_palette <- octoflushow::get_palette("Subtype")
+```
+
+```{r, fig.width=10,fig.height=6}
+# ===== Edit the Gene Constellation Dataset
+#hhdata <- octoflushow::make_hhdata(my.data, quarters=quarterrange)
+Constellations <- c("TTTTPT", "TTTPPT", "TTPTPT", "TTPPPT")
+pQ.data <- subset(my.data, Date < as.Date("2019-01-01") & Date > as.Date("2016-01-01") & Constellation %in% Constellations) # 2016 through 2018
+cQ.data <- subset(my.data, Date > as.Date("2019-01-01") & Date < as.Date("2022-01-01") & Constellation %in% Constellations) # 2019 through 2021
+
+(pp <- plotConstellation(cQ.data))
+ggplot2::ggsave(plot = pp, filename = "GeneConstellations.pdf", width = 11, height = 6, dpi = 300)
+```
+
+```{r, echo=TRUE}
+# subtypes counts
+(sum_subtype <- cQ.data$Subtype %>% factor %>% summary)
+# number of WGS strains
+(nWGS <- nrow(cQ.data))
+# percent of each subtype with wgs
+(sum_subtype / nWGS)
+# number of unique constellations
+(nConstellations <- cQ.data$Constellation %>% factor %>% droplevels %>% nlevels)
+# number of LAIV strains
+(nLAIV <- cQ.data %>% dplyr::filter(grepl("V", Constellation)) %>% nrow)
+# percent LAIV
+(pLAIV <- nLAIV / nWGS)
+# number of pairs
+nlevels(factor(prepGConstData(cQ.data)$labels))
+prepGConstData(cQ.data)$labels %>% factor %>% summary
+```
+
+## Gene Constellation Difference
+
+```{r, fig.width=10,fig.height=6}
+# ===== Compare prior (pQ) and current (cQ) constellations
+pQ.hhdata <- prepGConstData(pQ.data) %>%
+  dplyr::select(Constellation, Subtype, labels, "pQ_n"=n)
+cQ.hhdata <- prepGConstData(cQ.data) %>%
+  dplyr::select(Constellation, Subtype, labels, "cQ_n"=n)
+dif_title <- paste0("Gene constellations percentage differences between three-year time periods 2016-2018 and 2019-2021")
+
+hh.hhdata <- merge(pQ.hhdata, cQ.hhdata,all = T) %>%
+  dplyr::mutate(
+    pQ_n=dplyr::case_when(is.na(pQ_n)~0,
+                          1==1 ~ pQ_n),
+    cQ_n=dplyr::case_when(is.na(cQ_n)~0,
+                          1==1 ~ cQ_n),
+    diff_n=cQ_n-pQ_n
+  )
+
+hh.hhdata <- orderConstellations(hh.hhdata)
+
+# ===== Plot the difference
+p <- hh.hhdata %>% ggplot2::ggplot(., ggplot2::aes(x = labels, y = Constellation, fill = diff_n))+
+  ggplot2::geom_tile(color = "black") +
+  ggplot2::scale_fill_gradient2(
+    low = "#b2182b", mid = "#91bfdb", # mid = "#E0f3F8",
+    high = "#0868ac", na.value = "white",
+    midpoint = 0
+  ) +
+  ggplot2::geom_text(ggplot2::aes(label = round(diff_n,1)), size=2) +
+  ggplot2::facet_grid(. ~ Subtype, space = "free", scales = "free") +
+  ggplot2::theme_classic() +
+  ggplot2::theme(
+    axis.text.x = ggplot2::element_text(angle = 45, hjust = 1),
+    plot.margin = grid::unit(rep(0, 4), "lines"),
+    axis.text.y = ggplot2::element_text(family = "mono"),
+    legend.position = "none"
+  ) +
+  ggplot2::labs(title = dif_title, x = "HA and NA Phylogenetic Clade Pairs", fill="diff")
+for (yint in c(-1:length(unique(hh.hhdata$Constellation)))) { # number of unique constellations
+  p <- p + ggplot2::geom_hline(yintercept = yint + 0.5, size = 0.25, color = "gray")
+}
+for (xint in c(-1:length(unique(hh.hhdata$labels)))) { # number of unique ha/na pairings
+  p <- p + ggplot2::geom_vline(xintercept = xint + 0.5, size = 0.25, color = "gray")
+}
+p
+ggplot2::ggsave(plot = p, filename = "GeneConstellations_diff_v4.pdf", width = 15, height = 6, dpi = 300)
+```

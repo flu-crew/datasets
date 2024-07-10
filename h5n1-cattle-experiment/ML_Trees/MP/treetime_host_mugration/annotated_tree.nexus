@@ -1,0 +1,489 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=387;
+	taxlabels
+	'EPI3158761|A/Canada_goose/Wyoming/24-003692-001-original/2024|H5N1|MP|2.3.4.4b||wild-bird|Wyoming|2024-01-25'
+	'EPI3171493|A/Texas/37/2024|H5N1|MP|2.3.4.4b||human|Texas|2024-03-28'
+	'|A/blackbird/Texas/24-008354-001/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-16'
+	'|A/blackbird/Texas/24-008357-001/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-16'
+	'|A/cat/New_Mexico/24-009116-001/2024|H5N1|MP|||domestic-mammal|New_Mexico|2024-03-20'
+	'|A/cat/New_Mexico/24-009116-002/2024|H5N1|MP||B3.13|domestic-mammal|New_Mexico|2024-03-20'
+	'|A/cat/New_Mexico/24-009116-004/2024|H5N1|MP||B3.13|domestic-mammal|New_Mexico|2024-03-20'
+	'|A/cat/New_Mexico/24-009116-005/2024|H5N1|MP||B3.13|domestic-mammal|New_Mexico|2024-03-20'
+	'|A/cat/Oklahoma/24-009118-002/2024|H5N1|MP||B3.13|domestic-mammal|Oklahoma|2024-03-20'
+	'|A/cat/Texas/24-008764-001/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-22'
+	'|A/cat/Texas/24-008764-002/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-22'
+	'|A/cat/Texas/24-008850-001/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-20'
+	'|A/cat/Texas/24-008850-002/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-20'
+	'|A/cat/Texas/24-009311-004/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-16'
+	'|A/cat/Texas/24-009311-006/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-16'
+	'|A/cattle/Idaho/24-009491-001/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'
+	'|A/cattle/Idaho/24-009491-002/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'
+	'|A/cattle/Idaho/24-009491-003/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'
+	'|A/cattle/Idaho/24-009491-005/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'
+	'|A/cattle/Idaho/24-009491-006/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'
+	'|A/cattle/Idaho/24-009491-007/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'
+	'|A/cattle/Kansas/24-008766-001/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-21'
+	'|A/cattle/Kansas/24-008767-001/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-20'
+	'|A/cattle/Kansas/24-009497-003/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-004/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-005/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-006/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-007/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-008/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-009/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-010/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-011/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-012/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Kansas/24-009497-014/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'
+	'|A/cattle/Michigan/24-009027-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'
+	'|A/cattle/Michigan/24-009027-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'
+	'|A/cattle/Michigan/24-009027-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'
+	'|A/cattle/Michigan/24-009027-004/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'
+	'|A/cattle/Michigan/24-009027-005/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'
+	'|A/cattle/Michigan/24-009027-010/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'
+	'|A/cattle/Michigan/24-010071-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'
+	'|A/cattle/Michigan/24-010071-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'
+	'|A/cattle/Michigan/24-010071-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'
+	'|A/cattle/Michigan/24-010071-005/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'
+	'|A/cattle/Michigan/24-010071-006/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'
+	'|A/cattle/Michigan/24-010071-007/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'
+	'|A/cattle/Michigan/24-010071-008/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'
+	'|A/cattle/Michigan/24-010071-009/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'
+	'|A/cattle/Michigan/24-010071-010/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'
+	'|A/cattle/Michigan/24-010303-001-300/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-03'
+	'|A/cattle/Michigan/24-010303-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-03'
+	'|A/cattle/Michigan/24-010303-002-300/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-03'
+	'|A/cattle/Michigan/24-010303-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-03'
+	'|A/cattle/New_Mexico/24-009306-003/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-25'
+	'|A/cattle/New_Mexico/24-009306-004/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-25'
+	'|A/cattle/New_Mexico/24-009309-001/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-16'
+	'|A/cattle/New_Mexico/24-009309-002/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-16'
+	'|A/cattle/New_Mexico/24-009309-004/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-16'
+	'|A/cattle/New_Mexico/24-010192-006/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010193-003/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-29'
+	'|A/cattle/New_Mexico/24-010193-006/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-29'
+	'|A/cattle/New_Mexico/24-010193-007/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-29'
+	'|A/cattle/New_Mexico/24-010194-001/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-15'
+	'|A/cattle/New_Mexico/24-010195-001/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-15'
+	'|A/cattle/New_Mexico/24-010195-004/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-15'
+	'|A/cattle/New_Mexico/24-010330-003-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-003/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-004-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-005-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-005/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-006-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-007-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-007/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-008-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-008/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-009-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-011-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-012-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010330-013-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'
+	'|A/cattle/New_Mexico/24-010512-001/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-02'
+	'|A/cattle/North_Carolina/24-010327-002/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-04'
+	'|A/cattle/North_Carolina/24-010327-003-300/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-04'
+	'|A/cattle/North_Carolina/24-010327-003/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-04'
+	'|A/cattle/Ohio/24-009586-001/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'
+	'|A/cattle/Ohio/24-009586-002/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'
+	'|A/cattle/Ohio/24-009586-003/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'
+	'|A/cattle/Ohio/24-009586-005/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'
+	'|A/cattle/Ohio/24-009586-006/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'
+	'|A/cattle/Ohio/24-009586-007/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'
+	'|A/cattle/Ohio/24-009586-008/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'
+	'|A/cattle/Ohio/24-009586-009/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'
+	'|A/cattle/Ohio/24-009586-010/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'
+	'|A/cattle/South_Dakota/24-010354-001-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-001/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-002-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-002/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-003-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-003/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-004-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-005-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-005/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-006-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-008-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-008/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-009-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-010-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-011-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-011/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-012-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-012/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-013-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-014-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-015-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-016-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-017-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-018-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-019-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-020-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/South_Dakota/24-010354-020/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'
+	'|A/cattle/Texas/24-008660-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-008660-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-008749-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-008749-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-008749-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-008749-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-008749-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-008749-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-008749-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-008749-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009028-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009028-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009028-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009028-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009028-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009028-009/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009028-019/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009029-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009087-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009088-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'
+	'|A/cattle/Texas/24-009088-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'
+	'|A/cattle/Texas/24-009108-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009108-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009108-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009108-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009108-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009108-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009108-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009109-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009109-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009109-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009109-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009109-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009109-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009109-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009109-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-009110-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-010/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-011/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-012/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-014/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-015/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-016/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-017/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-018/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-019/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-020/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-021/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-022/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-023/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-024/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-025/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-026/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009110-027/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-009290-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'
+	'|A/cattle/Texas/24-009290-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'
+	'|A/cattle/Texas/24-009290-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'
+	'|A/cattle/Texas/24-009308-002/2024|H5N1|MP|||cattle|Texas|2024-03-19'
+	'|A/cattle/Texas/24-009308-003/2024|H5N1|MP|||cattle|Texas|2024-03-19'
+	'|A/cattle/Texas/24-009308-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-19'
+	'|A/cattle/Texas/24-009308-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-19'
+	'|A/cattle/Texas/24-009308-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-19'
+	'|A/cattle/Texas/24-009310-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009310-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009310-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009310-007/2024|H5N1|MP|||cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009310-009/2024|H5N1|MP|||cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009310-010/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009367-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-009/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-010/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-011/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-012/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-013/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-014/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-016/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-018/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009367-023/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'
+	'|A/cattle/Texas/24-009495-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-004/2024|H5N1|MP|||cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-005/2024|H5N1|MP|||cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-007/2024|H5N1|MP|||cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-009/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-010/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-011/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009495-012/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'
+	'|A/cattle/Texas/24-009499-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-17'
+	'|A/cattle/Texas/24-009499-002/2024|H5N1|MP|||cattle|Texas|2024-03-17'
+	'|A/cattle/Texas/24-009775-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'
+	'|A/cattle/Texas/24-009776-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'
+	'|A/cattle/Texas/24-009776-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'
+	'|A/cattle/Texas/24-009776-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'
+	'|A/cattle/Texas/24-009776-015/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'
+	'|A/cattle/Texas/24-010331-001-300/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-010331-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'
+	'|A/cattle/Texas/24-010513-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-010513-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-010513-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-010513-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-28'
+	'|A/cattle/Texas/24-010513-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'
+	'|A/cattle/Texas/24-010514-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-04-03'
+	'|A/cattle/USA/24-009308-001/2024|H5N1|MP|||cattle|Texas|2024-03-31'
+	'|A/cattle/USA/24-009495-007/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-009779-005/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-18'
+	'|A/cattle/USA/24-009810-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-04-18'
+	'|A/cattle/USA/24-010071-004/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-010071-012/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010071-013/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010071-014/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010071-015/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010071-016/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010071-017/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010071-018/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010071-020/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010202-001/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-002/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-003/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-004/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-005/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-007/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-009/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-011/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-012/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-013/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010202-014/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'
+	'|A/cattle/USA/24-010231-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010231-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-010327-002/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-11'
+	'|A/cattle/USA/24-010327-004/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-19'
+	'|A/cattle/USA/24-010354-007/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-21'
+	'|A/cattle/USA/24-010661-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-16'
+	'|A/cattle/USA/24-010661-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-16'
+	'|A/cattle/USA/24-010661-004/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'
+	'|A/cattle/USA/24-010661-005/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'
+	'|A/cattle/USA/24-010661-007/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'
+	'|A/cattle/USA/24-010661-008/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'
+	'|A/cattle/USA/24-010661-009/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'
+	'|A/cattle/USA/24-010661-010/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'
+	'|A/cattle/USA/24-010661-013/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'
+	'|A/cattle/USA/24-010661-014/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'
+	'|A/cattle/USA/24-010786-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-16'
+	'|A/cattle/USA/24-010786-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-16'
+	'|A/cattle/USA/24-010930-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'
+	'|A/cattle/USA/24-011231-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'
+	'|A/cattle/USA/24-011231-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'
+	'|A/cattle/USA/24-011231-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'
+	'|A/cattle/USA/24-011231-004/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'
+	'|A/cattle/USA/24-011231-006/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'
+	'|A/cattle/USA/24-011573-002/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'
+	'|A/cattle/USA/24-011573-004/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'
+	'|A/cattle/USA/24-011573-005/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'
+	'|A/cattle/USA/24-011573-006/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'
+	'|A/cattle/USA/24-011573-007/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'
+	'|A/cattle/USA/24-011573-008/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'
+	'|A/cattle/USA/24-011573-009/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'
+	'|A/cattle/USA/24-011573-012/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'
+	'|A/cattle/USA/24-011573-013/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'
+	'|A/cattle/USA/24-011573-014/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'
+	'|A/cattle/USA/24-011573-015/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'
+	'|A/cattle/USA/24-011573-017/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'
+	'|A/cattle/USA/24-011573-021/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'
+	'|A/cattle/USA/24-011574-001/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'
+	'|A/cattle/USA/24-011802-001/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-05-02'
+	'|A/cattle/USA/24-012225-001/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'
+	'|A/cattle/USA/24-012225-014/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'
+	'|A/cattle/USA/24-012225-019/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'
+	'|A/cattle/USA/24-012225-023/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'
+	'|A/cattle/USA/24-012225-029/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'
+	'|A/cattle/USA/24-012225-033/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'
+	'|A/cattle/USA/24-012314-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012314-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012314-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012341-001/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-002/2024|H5N1|MP||B3.13|cattle|USA|2024-05-07'
+	'|A/cattle/USA/24-012341-004/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-007/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-008/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-010/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-012/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-013/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-014/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-015/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-016/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-017/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-018/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-020/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-021/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012341-022/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'
+	'|A/cattle/USA/24-012346-001/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'
+	'|A/cattle/USA/24-012346-005/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'
+	'|A/cattle/USA/24-012346-009/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'
+	'|A/cattle/USA/24-012346-013/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'
+	'|A/cattle/USA/24-012346-017/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'
+	'|A/cattle/USA/24-012346-021/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'
+	'|A/cattle/USA/24-012377-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012377-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012377-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012377-004/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012377-005/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012377-006/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012377-007/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012377-008/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012377-009/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012377-010/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'
+	'|A/cattle/USA/24-012457-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-05-02'
+	'|A/cattle/USA/24-012457-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-05-02'
+	'|A/cattle/USA/24-013021-001/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-002/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-003/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-004/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-005/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-006/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-007/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-008/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-009/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-010/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013021-011/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013170-006/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013170-011/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013170-012/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013172-002/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013270-001/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013393-004/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013395-001/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013395-002/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013710-001/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013710-002/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013710-003/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013710-004/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013710-005/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013710-006/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013710-007/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013710-008/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/cattle/USA/24-013710-009/2024|H5N1|MP|||cattle|USA|2024-04-01'
+	'|A/chicken/Kansas/24-010482-001/2024|H5N1|MP||B3.13|poultry|Kansas|2024-04-08'
+	'|A/chicken/Michigan/24-009582-001/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-01'
+	'|A/chicken/Michigan/24-009582-002/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-01'
+	'|A/chicken/Michigan/24-009582-003/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-01'
+	'|A/chicken/Michigan/24-010308-001-300/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'
+	'|A/chicken/Michigan/24-010308-006-300/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'
+	'|A/chicken/Michigan/24-010308-007-300/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'
+	'|A/chicken/Michigan/24-010308-007/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'
+	'|A/chicken/Michigan/24-010308-012-300/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'
+	'|A/chicken/Michigan/24-010308-012/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'
+	'|A/chicken/Texas/24-007264-001/2024|H5N1|MP||B3.13|poultry|Texas|2024-03-07'
+	'|A/chicken/Texas/24-007264-003/2024|H5N1|MP||B3.13|poultry|Texas|2024-03-07'
+	'|A/chicken/Texas/24-009654-001/2024|H5N1|MP||B3.13|poultry|Texas|2024-04-01'
+	'|A/chicken/Texas/24-009654-004/2024|H5N1|MP||B3.13|poultry|Texas|2024-04-01'
+	'|A/grackle/Texas/24-008356-001/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-18'
+	'|A/grackle/Texas/24-008356-003/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-18'
+	'|A/grackle/Texas/24-008765-002/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-20'
+	'|A/pigeon/Texas/24-008765-001/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-20'
+	'|A/raccoon/New_Mexico/24-009496-002/2024|H5N1|MP||B3.13|mammal|New_Mexico|2024-03-23'
+;
+end;
+
+begin trees;
+	tree tree1 = [&R] ('|A/cattle/USA/24-010327-002/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-11'[&host-category="cattle"]:0.0,'|A/cattle/North_Carolina/24-010327-002/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-04'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-008766-001/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-21'[&host-category="cattle"]:0.00102,((('|A/cattle/Texas/24-009367-014/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.00102,('|A/cattle/Texas/24-009367-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009775-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009367-013/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009367-009/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009367-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,'|A/cattle/Texas/24-009367-010/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0)[&label="NODE_0000009",host-category="cattle"]:0.0)[&label="NODE_0000008",host-category="cattle"]:0.0)[&label="NODE_0000007",host-category="cattle"]:0.0)[&label="NODE_0000006",host-category="cattle"]:0.0)[&label="0/93",host-category="cattle"]:0.0)[&label="84.5/72",host-category="cattle"]:0.00102,('|A/cattle/USA/24-013270-001/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.00102,('|A/cattle/USA/24-012457-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-05-02'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-012-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-003/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-004-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013710-005/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010193-003/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-013-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-008-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-007/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-009-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010193-006/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010512-001/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-02'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-007-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010192-006/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-008/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-005-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-003-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-005/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/chicken/Texas/24-009654-004/2024|H5N1|MP||B3.13|poultry|Texas|2024-04-01'[&host-category="poultry"]:0.0,('|A/cattle/New_Mexico/24-010193-007/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012457-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-05-02'[&host-category="cattle"]:0.0,'|A/cattle/New_Mexico/24-010330-006-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0)[&label="NODE_0000031",host-category="cattle"]:0.0)[&label="NODE_0000030",host-category="cattle"]:0.0)[&label="NODE_0000029",host-category="cattle"]:0.0)[&label="NODE_0000028",host-category="cattle"]:0.0)[&label="NODE_0000027",host-category="cattle"]:0.0)[&label="NODE_0000026",host-category="cattle"]:0.0)[&label="NODE_0000025",host-category="cattle"]:0.0)[&label="NODE_0000024",host-category="cattle"]:0.0)[&label="NODE_0000023",host-category="cattle"]:0.0)[&label="NODE_0000022",host-category="cattle"]:0.0)[&label="NODE_0000021",host-category="cattle"]:0.0)[&label="NODE_0000020",host-category="cattle"]:0.0)[&label="NODE_0000019",host-category="cattle"]:0.0)[&label="NODE_0000018",host-category="cattle"]:0.0)[&label="NODE_0000017",host-category="cattle"]:0.0)[&label="NODE_0000016",host-category="cattle"]:0.0)[&label="NODE_0000015",host-category="cattle"]:0.0)[&label="NODE_0000014",host-category="cattle"]:0.0)[&label="NODE_0000013",host-category="cattle"]:0.0)[&label="NODE_0000012",host-category="cattle"]:0.0)[&label="0/95",host-category="cattle"]:0.0)[&label="84/68",host-category="cattle"]:0.00102)[&label="0/14",host-category="cattle"]:0.0,((('|A/cattle/Idaho/24-009491-007/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'[&host-category="cattle"]:0.00102,('|A/cattle/USA/24-009779-005/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-18'[&host-category="cattle"]:0.0,'|A/cattle/Idaho/24-009491-002/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'[&host-category="cattle"]:0.0)[&label="0/95",host-category="cattle"]:0.0)[&label="85.1/68",host-category="cattle"]:0.00102,('|A/cattle/Texas/24-009310-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009310-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,'|A/cattle/Texas/24-009310-007/2024|H5N1|MP|||cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0)[&label="NODE_0000037",host-category="cattle"]:0.0)[&label="74.2/90",host-category="cattle"]:0.00102)[&label="0/20",host-category="cattle"]:0.0,(('|A/cattle/USA/24-012377-007/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.00204,'|A/cattle/Texas/24-009776-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'[&host-category="cattle"]:0.00102)[&label="0/14",host-category="cattle"]:0.0,(('|A/cattle/Texas/24-010513-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.00102,('|A/chicken/Michigan/24-009582-002/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-01'[&host-category="poultry"]:0.0,('|A/chicken/Michigan/24-010308-012/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'[&host-category="poultry"]:0.0,('|A/chicken/Michigan/24-009582-003/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-01'[&host-category="poultry"]:0.0,('|A/chicken/Michigan/24-010308-012-300/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'[&host-category="poultry"]:0.0,('|A/chicken/Michigan/24-010308-001-300/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'[&host-category="poultry"]:0.0,('|A/chicken/Michigan/24-010308-007/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'[&host-category="poultry"]:0.0,('|A/chicken/Michigan/24-010308-006-300/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'[&host-category="poultry"]:0.0,('|A/chicken/Michigan/24-009582-001/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-01'[&host-category="poultry"]:0.0,'|A/chicken/Michigan/24-010308-007-300/2024|H5N1|MP||B3.13|poultry|Michigan|2024-04-06'[&host-category="poultry"]:0.0)[&label="NODE_0000049",host-category="poultry"]:0.0)[&label="NODE_0000048",host-category="poultry"]:0.0)[&label="NODE_0000047",host-category="poultry"]:0.0)[&label="NODE_0000046",host-category="poultry"]:0.0)[&label="NODE_0000045",host-category="poultry"]:0.0)[&label="NODE_0000044",host-category="poultry"]:0.0)[&label="NODE_0000043",host-category="poultry"]:0.0)[&label="74.3/90",host-category="poultry"]:0.00102)[&label="0/11",host-category="cattle"]:0.0,(('|A/cattle/Idaho/24-009491-006/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'[&host-category="cattle"]:0.00102,('|A/cattle/Kansas/24-009497-003/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-009497-004/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-009497-011/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-009497-012/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009308-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-19'[&host-category="cattle"]:0.0,'|A/cattle/Texas/24-010514-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-04-03'[&host-category="cattle"]:0.0)[&label="NODE_0000056",host-category="cattle"]:0.0)[&label="NODE_0000055",host-category="cattle"]:0.0)[&label="NODE_0000054",host-category="cattle"]:0.0)[&label="NODE_0000053",host-category="cattle"]:0.0)[&label="86.6/96",host-category="cattle"]:0.00204)[&label="0/34",host-category="cattle"]:0.0,(('|A/cattle/Kansas/24-009497-008/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,'|A/cattle/Kansas/24-009497-014/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0)[&label="92.3/93",host-category="cattle"]:0.00102,(('|A/cattle/USA/24-013172-002/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.00102,('|A/cattle/Texas/24-009110-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.00102,('|A/cattle/Texas/24-009110-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.00102,('|A/cattle/Texas/24-009088-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-014/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009290-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-021/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-025/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-010/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-027/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-012/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-011/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009290-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-026/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-016/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-015/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-024/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009088-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'[&host-category="cattle"]:0.0,'|A/cattle/Texas/24-009110-022/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0)[&label="NODE_0000081",host-category="cattle"]:0.0)[&label="NODE_0000080",host-category="cattle"]:0.0)[&label="NODE_0000079",host-category="cattle"]:0.0)[&label="NODE_0000078",host-category="cattle"]:0.0)[&label="NODE_0000077",host-category="cattle"]:0.0)[&label="NODE_0000076",host-category="cattle"]:0.0)[&label="NODE_0000075",host-category="cattle"]:0.0)[&label="NODE_0000074",host-category="cattle"]:0.0)[&label="NODE_0000073",host-category="cattle"]:0.0)[&label="NODE_0000072",host-category="cattle"]:0.0)[&label="NODE_0000071",host-category="cattle"]:0.0)[&label="NODE_0000070",host-category="cattle"]:0.0)[&label="NODE_0000069",host-category="cattle"]:0.0)[&label="NODE_0000068",host-category="cattle"]:0.0)[&label="NODE_0000067",host-category="cattle"]:0.0)[&label="NODE_0000066",host-category="cattle"]:0.0)[&label="NODE_0000065",host-category="cattle"]:0.0)[&label="NODE_0000064",host-category="cattle"]:0.0)[&label="0/86",host-category="cattle"]:0.0)[&label="0/48",host-category="cattle"]:0.0)[&label="84.8/70",host-category="cattle"]:0.00102)[&label="0/12",host-category="cattle"]:0.0,((('|A/cattle/Texas/24-009367-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,'|A/cattle/Texas/24-009367-018/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0)[&label="72.9/92",host-category="cattle"]:0.00102,('|A/cattle/USA/24-011231-004/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010303-001-300/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-03'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009109-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-009027-005/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011231-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-009027-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011231-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011231-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011231-006/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-19'[&host-category="cattle"]:0.0,'|A/cattle/Michigan/24-010303-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-03'[&host-category="cattle"]:0.0)[&label="NODE_0000093",host-category="cattle"]:0.0)[&label="NODE_0000092",host-category="cattle"]:0.0)[&label="NODE_0000091",host-category="cattle"]:0.0)[&label="NODE_0000090",host-category="cattle"]:0.0)[&label="NODE_0000089",host-category="cattle"]:0.0)[&label="NODE_0000088",host-category="cattle"]:0.0)[&label="NODE_0000087",host-category="cattle"]:0.0)[&label="NODE_0000086",host-category="cattle"]:0.0)[&label="86.7/98",host-category="cattle"]:0.00204)[&label="0/19",host-category="cattle"]:0.0,('|A/cattle/USA/24-009495-007/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010071-007/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'[&host-category="cattle"]:0.00102,(('|A/cattle/USA/24-010231-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.00102,'|A/cattle/USA/24-009810-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-04-18'[&host-category="cattle"]:0.00102)[&label="0/18",host-category="cattle"]:0.0,('|A/cattle/USA/24-012346-013/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'[&host-category="cattle"]:0.00102,(('|A/cattle/New_Mexico/24-009306-003/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-25'[&host-category="cattle"]:0.00102,('|A/cattle/USA/24-013021-003/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013021-007/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013021-010/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013021-008/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013021-002/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013021-004/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013021-005/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013021-009/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013021-006/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013021-001/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010930-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,'|A/cattle/USA/24-013021-011/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0)[&label="NODE_0000111",host-category="cattle"]:0.0)[&label="NODE_0000110",host-category="cattle"]:0.0)[&label="NODE_0000109",host-category="cattle"]:0.0)[&label="NODE_0000108",host-category="cattle"]:0.0)[&label="NODE_0000107",host-category="cattle"]:0.0)[&label="NODE_0000106",host-category="cattle"]:0.0)[&label="NODE_0000105",host-category="cattle"]:0.0)[&label="NODE_0000104",host-category="cattle"]:0.0)[&label="NODE_0000103",host-category="cattle"]:0.0)[&label="NODE_0000102",host-category="cattle"]:0.0)[&label="75.3/88",host-category="cattle"]:0.00102)[&label="0/12",host-category="cattle"]:0.0,((('|A/cattle/Texas/24-009495-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,'|A/cattle/Texas/24-009495-010/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0)[&label="74.8/92",host-category="cattle"]:0.00102,('|A/cattle/South_Dakota/24-010354-008-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,'|A/cattle/South_Dakota/24-010354-008/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0)[&label="75.8/91",host-category="cattle"]:0.00102)[&label="0/13",host-category="cattle"]:0.0,('EPI3171493|A/Texas/37/2024|H5N1|MP|2.3.4.4b||human|Texas|2024-03-28'[&host-category="human"]:0.0,((('|A/cattle/Texas/24-009367-023/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.00102,('|A/cattle/USA/24-010661-014/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'[&host-category="cattle"]:0.0,'|A/cattle/Ohio/24-009586-010/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'[&host-category="cattle"]:0.00102)[&label="85.6/66",host-category="cattle"]:0.00102)[&label="0/7",host-category="cattle"]:0.0,(('|A/cattle/Texas/24-009495-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.00102,('|A/cattle/Texas/24-010331-001-300/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,'|A/cattle/Texas/24-010331-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0)[&label="74.7/90",host-category="cattle"]:0.00102)[&label="0/12",host-category="cattle"]:0.0,(('|A/cattle/USA/24-010202-003/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.00102,'|A/chicken/Texas/24-009654-001/2024|H5N1|MP||B3.13|poultry|Texas|2024-04-01'[&host-category="poultry"]:0.00102)[&label="0/12",host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-013-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.00102,'EPI3158761|A/Canada_goose/Wyoming/24-003692-001-original/2024|H5N1|MP|2.3.4.4b||wild-bird|Wyoming|2024-01-25'[&host-category="wild-bird"]:0.00204)[&label="0/19",host-category="cattle"]:0.0)[&label="0/5",host-category="cattle"]:0.0)[&label="0/1",host-category="cattle"]:0.0)[&label="0/11",host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010071-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013710-007/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012346-017/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009495-005/2024|H5N1|MP|||cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-009308-001/2024|H5N1|MP|||cattle|Texas|2024-03-31'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-023/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012377-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-009497-005/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-019/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010194-001/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-15'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009310-010/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-019-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-010/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009108-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009367-016/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Ohio/24-009586-003/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012377-008/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-006-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-017/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009367-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-020-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cat/Texas/24-008850-001/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-20'[&host-category="domestic-mammal"]:0.0,('|A/cattle/Texas/24-010513-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-002/2024|H5N1|MP||B3.13|cattle|USA|2024-05-07'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013170-006/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010661-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-16'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012346-021/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012314-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010202-013/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010661-007/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009499-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-17'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012377-004/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009495-009/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-015/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010195-001/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-15'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-008660-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012225-001/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'[&host-category="cattle"]:0.0,('|A/grackle/Texas/24-008356-001/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-18'[&host-category="wild-bird"]:0.0,('|A/cattle/Texas/24-009367-012/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Ohio/24-009586-009/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009108-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-008749-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012225-033/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-021/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-016/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-002/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010202-005/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/grackle/Texas/24-008765-002/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-20'[&host-category="wild-bird"]:0.0,('|A/cattle/USA/24-010071-014/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-004/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010071-012/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009028-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012225-014/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012346-009/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-008749-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009108-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009028-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-016-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-009027-004/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010202-002/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010303-002-300/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-03'[&host-category="cattle"]:0.0,('|A/cattle/Idaho/24-009491-003/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010661-009/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010330-011-300/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010661-010/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-014/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012225-023/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-012/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-008/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'[&host-category="cattle"]:0.0,('|A/cattle/Ohio/24-009586-006/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010202-007/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009108-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013710-002/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010071-008/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009495-007/2024|H5N1|MP|||cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/Ohio/24-009586-007/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-015-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/chicken/Texas/24-007264-003/2024|H5N1|MP||B3.13|poultry|Texas|2024-03-07'[&host-category="poultry"]:0.0,('|A/cattle/Texas/24-009290-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-13'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009495-011/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009028-009/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-001-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009308-003/2024|H5N1|MP|||cattle|Texas|2024-03-19'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-005/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010303-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-03'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010071-010/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012346-005/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'[&host-category="cattle"]:0.0,('|A/cat/Texas/24-009311-004/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-16'[&host-category="domestic-mammal"]:0.0,('|A/cattle/USA/24-010231-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-010513-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010071-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010202-001/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/blackbird/Texas/24-008357-001/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-16'[&host-category="wild-bird"]:0.0,('|A/cattle/Texas/24-009109-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010202-014/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009310-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010071-006/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-001/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-010513-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-28'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-006/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-007/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-003-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-014-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Idaho/24-009491-005/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009028-019/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-012/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010202-012/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009109-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010071-013/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009776-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-008749-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-018/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/North_Carolina/24-010327-003/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-04'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013393-004/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012377-009/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-020/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-010195-004/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-15'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009109-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013395-001/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010661-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-16'[&host-category="cattle"]:0.0,('|A/raccoon/New_Mexico/24-009496-002/2024|H5N1|MP||B3.13|mammal|New_Mexico|2024-03-23'[&host-category="mammal"]:0.0,('|A/cattle/South_Dakota/24-010354-011-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012377-010/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012346-001/2024|H5N1|MP||B3.13|cattle|Colorado|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-013/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009367-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-009309-002/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-16'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010202-004/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009308-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-19'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010661-008/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-009/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010202-009/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-015/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-010-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-012/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-009497-006/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cat/Texas/24-008764-001/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-22'[&host-category="domestic-mammal"]:0.0,('|A/cattle/Texas/24-009367-011/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009109-006/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009109-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009499-002/2024|H5N1|MP|||cattle|Texas|2024-03-17'[&host-category="cattle"]:0.0,('|A/cat/New_Mexico/24-009116-004/2024|H5N1|MP||B3.13|domestic-mammal|New_Mexico|2024-03-20'[&host-category="domestic-mammal"]:0.0,('|A/cattle/New_Mexico/24-009306-004/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-25'[&host-category="cattle"]:0.0,('|A/cat/Oklahoma/24-009118-002/2024|H5N1|MP||B3.13|domestic-mammal|Oklahoma|2024-03-20'[&host-category="domestic-mammal"]:0.0,('|A/cattle/Ohio/24-009586-001/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009495-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009310-009/2024|H5N1|MP|||cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/North_Carolina/24-010327-003-300/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-04'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-017/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013710-004/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/Ohio/24-009586-002/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-009309-001/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-16'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009108-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-007/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012314-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-009497-009/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-009027-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-004-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013710-001/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-013/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'[&host-category="cattle"]:0.0,('|A/grackle/Texas/24-008356-003/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-18'[&host-category="wild-bird"]:0.0,('|A/cattle/Texas/24-010513-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013710-009/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cat/New_Mexico/24-009116-002/2024|H5N1|MP||B3.13|domestic-mammal|New_Mexico|2024-03-20'[&host-category="domestic-mammal"]:0.0,('|A/cattle/USA/24-010202-011/2024|H5N1|MP||B3.13|cattle|Ohio|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009028-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012225-019/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012225-029/2024|H5N1|MP||B3.13|cattle|Colorado|2024-04-27'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009776-015/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013710-003/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-003/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009495-004/2024|H5N1|MP|||cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-017-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010327-004/2024|H5N1|MP||B3.13|cattle|North_Carolina|2024-04-19'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010661-005/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009087-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009308-002/2024|H5N1|MP|||cattle|Texas|2024-03-19'[&host-category="cattle"]:0.0,('|A/cattle/Idaho/24-009491-001/2024|H5N1|MP||B3.13|cattle|Idaho|2024-03-27'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010071-018/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-008660-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/chicken/Texas/24-007264-001/2024|H5N1|MP||B3.13|poultry|Texas|2024-03-07'[&host-category="poultry"]:0.0,('|A/cattle/USA/24-011573-004/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009308-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-19'[&host-category="cattle"]:0.0,('|A/cat/Texas/24-008850-002/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-20'[&host-category="domestic-mammal"]:0.0,('|A/pigeon/Texas/24-008765-001/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-20'[&host-category="wild-bird"]:0.0,('|A/cattle/Michigan/24-010071-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010354-007/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-21'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-011/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-009497-010/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-009027-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-008/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-021/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-005-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cat/New_Mexico/24-009116-005/2024|H5N1|MP||B3.13|domestic-mammal|New_Mexico|2024-03-20'[&host-category="domestic-mammal"]:0.0,('|A/cattle/Texas/24-009495-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-020/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-008749-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010661-004/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009029-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-014/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012377-006/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010071-017/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009028-003/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009495-012/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-21'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010071-020/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/New_Mexico/24-009309-004/2024|H5N1|MP||B3.13|cattle|New_Mexico|2024-03-16'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-008767-001/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013170-011/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012377-001/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012341-022/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-009-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010786-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-16'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-002/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cat/Texas/24-009311-006/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-16'[&host-category="domestic-mammal"]:0.0,('|A/cattle/Texas/24-008749-002/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-008749-004/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012314-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-011573-017/2024|H5N1|MP||B3.13|cattle|Idaho|2024-05-02'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012377-005/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013395-002/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009028-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cat/Texas/24-008764-002/2024|H5N1|MP||B3.13|domestic-mammal|Texas|2024-03-22'[&host-category="domestic-mammal"]:0.0,('|A/cattle/USA/24-010071-015/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-012377-002/2024|H5N1|MP||B3.13|cattle|Michigan|2024-05-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013710-006/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/chicken/Kansas/24-010482-001/2024|H5N1|MP||B3.13|poultry|Kansas|2024-04-08'[&host-category="poultry"]:0.0,('|A/cattle/Ohio/24-009586-005/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010661-013/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-21'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010071-016/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-18'[&host-category="cattle"]:0.0,('|A/cattle/Ohio/24-009586-008/2024|H5N1|MP||B3.13|cattle|Ohio|2024-03-29'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-008749-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Kansas/24-009497-007/2024|H5N1|MP||B3.13|cattle|Kansas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-009027-010/2024|H5N1|MP||B3.13|cattle|Michigan|2024-03-24'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-020/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-005/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009776-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-10'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013710-008/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009108-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009108-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009109-005/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-012-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-018-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009110-018/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-14'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009367-007/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-25'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-013170-012/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-002-300/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/blackbird/Texas/24-008354-001/2024|H5N1|MP||B3.13|wild-bird|Texas|2024-03-16'[&host-category="wild-bird"]:0.0,('|A/cattle/Texas/24-008749-001/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Texas/24-009109-008/2024|H5N1|MP||B3.13|cattle|Texas|2024-03-20'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010071-005/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'[&host-category="cattle"]:0.0,('|A/cat/New_Mexico/24-009116-001/2024|H5N1|MP|||domestic-mammal|New_Mexico|2024-03-20'[&host-category="domestic-mammal"]:0.0,('|A/cattle/USA/24-011574-001/2024|H5N1|MP||B3.13|cattle|Idaho|2024-04-22'[&host-category="cattle"]:0.0,('|A/cattle/South_Dakota/24-010354-001/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-04-05'[&host-category="cattle"]:0.0,('|A/cattle/Michigan/24-010071-009/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-01'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010786-003/2024|H5N1|MP||B3.13|cattle|Michigan|2024-04-16'[&host-category="cattle"]:0.0,('|A/cattle/USA/24-010071-004/2024|H5N1|MP|||cattle|USA|2024-04-01'[&host-category="cattle"]:0.0,'|A/cattle/USA/24-011802-001/2024|H5N1|MP||B3.13|cattle|South_Dakota|2024-05-02'[&host-category="cattle"]:0.0)[&label="NODE_0000384",host-category="cattle"]:0.0)[&label="NODE_0000383",host-category="cattle"]:0.0)[&label="NODE_0000382",host-category="cattle"]:0.0)[&label="NODE_0000381",host-category="cattle"]:0.0)[&label="NODE_0000380",host-category="cattle"]:0.0)[&label="NODE_0000379",host-category="cattle"]:0.0)[&label="NODE_0000378",host-category="cattle"]:0.0)[&label="NODE_0000377",host-category="cattle"]:0.0)[&label="NODE_0000376",host-category="cattle"]:0.0)[&label="NODE_0000375",host-category="cattle"]:0.0)[&label="NODE_0000374",host-category="cattle"]:0.0)[&label="NODE_0000373",host-category="cattle"]:0.0)[&label="NODE_0000372",host-category="cattle"]:0.0)[&label="NODE_0000371",host-category="cattle"]:0.0)[&label="NODE_0000370",host-category="cattle"]:0.0)[&label="NODE_0000369",host-category="cattle"]:0.0)[&label="NODE_0000368",host-category="cattle"]:0.0)[&label="NODE_0000367",host-category="cattle"]:0.0)[&label="NODE_0000366",host-category="cattle"]:0.0)[&label="NODE_0000365",host-category="cattle"]:0.0)[&label="NODE_0000364",host-category="cattle"]:0.0)[&label="NODE_0000363",host-category="cattle"]:0.0)[&label="NODE_0000362",host-category="cattle"]:0.0)[&label="NODE_0000361",host-category="cattle"]:0.0)[&label="NODE_0000360",host-category="cattle"]:0.0)[&label="NODE_0000359",host-category="cattle"]:0.0)[&label="NODE_0000358",host-category="cattle"]:0.0)[&label="NODE_0000357",host-category="cattle"]:0.0)[&label="NODE_0000356",host-category="cattle"]:0.0)[&label="NODE_0000355",host-category="cattle"]:0.0)[&label="NODE_0000354",host-category="cattle"]:0.0)[&label="NODE_0000353",host-category="cattle"]:0.0)[&label="NODE_0000352",host-category="cattle"]:0.0)[&label="NODE_0000351",host-category="cattle"]:0.0)[&label="NODE_0000350",host-category="cattle"]:0.0)[&label="NODE_0000349",host-category="cattle"]:0.0)[&label="NODE_0000348",host-category="cattle"]:0.0)[&label="NODE_0000347",host-category="cattle"]:0.0)[&label="NODE_0000346",host-category="cattle"]:0.0)[&label="NODE_0000345",host-category="cattle"]:0.0)[&label="NODE_0000344",host-category="cattle"]:0.0)[&label="NODE_0000343",host-category="cattle"]:0.0)[&label="NODE_0000342",host-category="cattle"]:0.0)[&label="NODE_0000341",host-category="cattle"]:0.0)[&label="NODE_0000340",host-category="cattle"]:0.0)[&label="NODE_0000339",host-category="cattle"]:0.0)[&label="NODE_0000338",host-category="cattle"]:0.0)[&label="NODE_0000337",host-category="cattle"]:0.0)[&label="NODE_0000336",host-category="cattle"]:0.0)[&label="NODE_0000335",host-category="cattle"]:0.0)[&label="NODE_0000334",host-category="cattle"]:0.0)[&label="NODE_0000333",host-category="cattle"]:0.0)[&label="NODE_0000332",host-category="cattle"]:0.0)[&label="NODE_0000331",host-category="cattle"]:0.0)[&label="NODE_0000330",host-category="cattle"]:0.0)[&label="NODE_0000329",host-category="cattle"]:0.0)[&label="NODE_0000328",host-category="cattle"]:0.0)[&label="NODE_0000327",host-category="cattle"]:0.0)[&label="NODE_0000326",host-category="cattle"]:0.0)[&label="NODE_0000325",host-category="cattle"]:0.0)[&label="NODE_0000324",host-category="cattle"]:0.0)[&label="NODE_0000323",host-category="cattle"]:0.0)[&label="NODE_0000322",host-category="cattle"]:0.0)[&label="NODE_0000321",host-category="cattle"]:0.0)[&label="NODE_0000320",host-category="cattle"]:0.0)[&label="NODE_0000319",host-category="cattle"]:0.0)[&label="NODE_0000318",host-category="cattle"]:0.0)[&label="NODE_0000317",host-category="cattle"]:0.0)[&label="NODE_0000316",host-category="cattle"]:0.0)[&label="NODE_0000315",host-category="cattle"]:0.0)[&label="NODE_0000314",host-category="cattle"]:0.0)[&label="NODE_0000313",host-category="cattle"]:0.0)[&label="NODE_0000312",host-category="cattle"]:0.0)[&label="NODE_0000311",host-category="cattle"]:0.0)[&label="NODE_0000310",host-category="cattle"]:0.0)[&label="NODE_0000309",host-category="cattle"]:0.0)[&label="NODE_0000308",host-category="cattle"]:0.0)[&label="NODE_0000307",host-category="cattle"]:0.0)[&label="NODE_0000306",host-category="cattle"]:0.0)[&label="NODE_0000305",host-category="cattle"]:0.0)[&label="NODE_0000304",host-category="cattle"]:0.0)[&label="NODE_0000303",host-category="cattle"]:0.0)[&label="NODE_0000302",host-category="cattle"]:0.0)[&label="NODE_0000301",host-category="cattle"]:0.0)[&label="NODE_0000300",host-category="cattle"]:0.0)[&label="NODE_0000299",host-category="cattle"]:0.0)[&label="NODE_0000298",host-category="cattle"]:0.0)[&label="NODE_0000297",host-category="cattle"]:0.0)[&label="NODE_0000296",host-category="cattle"]:0.0)[&label="NODE_0000295",host-category="cattle"]:0.0)[&label="NODE_0000294",host-category="cattle"]:0.0)[&label="NODE_0000293",host-category="cattle"]:0.0)[&label="NODE_0000292",host-category="cattle"]:0.0)[&label="NODE_0000291",host-category="cattle"]:0.0)[&label="NODE_0000290",host-category="cattle"]:0.0)[&label="NODE_0000289",host-category="cattle"]:0.0)[&label="NODE_0000288",host-category="cattle"]:0.0)[&label="NODE_0000287",host-category="cattle"]:0.0)[&label="NODE_0000286",host-category="cattle"]:0.0)[&label="NODE_0000285",host-category="cattle"]:0.0)[&label="NODE_0000284",host-category="cattle"]:0.0)[&label="NODE_0000283",host-category="cattle"]:0.0)[&label="NODE_0000282",host-category="cattle"]:0.0)[&label="NODE_0000281",host-category="cattle"]:0.0)[&label="NODE_0000280",host-category="cattle"]:0.0)[&label="NODE_0000279",host-category="cattle"]:0.0)[&label="NODE_0000278",host-category="cattle"]:0.0)[&label="NODE_0000277",host-category="cattle"]:0.0)[&label="NODE_0000276",host-category="cattle"]:0.0)[&label="NODE_0000275",host-category="cattle"]:0.0)[&label="NODE_0000274",host-category="cattle"]:0.0)[&label="NODE_0000273",host-category="cattle"]:0.0)[&label="NODE_0000272",host-category="cattle"]:0.0)[&label="NODE_0000271",host-category="cattle"]:0.0)[&label="NODE_0000270",host-category="cattle"]:0.0)[&label="NODE_0000269",host-category="cattle"]:0.0)[&label="NODE_0000268",host-category="cattle"]:0.0)[&label="NODE_0000267",host-category="cattle"]:0.0)[&label="NODE_0000266",host-category="cattle"]:0.0)[&label="NODE_0000265",host-category="cattle"]:0.0)[&label="NODE_0000264",host-category="cattle"]:0.0)[&label="NODE_0000263",host-category="cattle"]:0.0)[&label="NODE_0000262",host-category="cattle"]:0.0)[&label="NODE_0000261",host-category="cattle"]:0.0)[&label="NODE_0000260",host-category="cattle"]:0.0)[&label="NODE_0000259",host-category="cattle"]:0.0)[&label="NODE_0000258",host-category="cattle"]:0.0)[&label="NODE_0000257",host-category="cattle"]:0.0)[&label="NODE_0000256",host-category="cattle"]:0.0)[&label="NODE_0000255",host-category="cattle"]:0.0)[&label="NODE_0000254",host-category="cattle"]:0.0)[&label="NODE_0000253",host-category="cattle"]:0.0)[&label="NODE_0000252",host-category="cattle"]:0.0)[&label="NODE_0000251",host-category="cattle"]:0.0)[&label="NODE_0000250",host-category="cattle"]:0.0)[&label="NODE_0000249",host-category="cattle"]:0.0)[&label="NODE_0000248",host-category="cattle"]:0.0)[&label="NODE_0000247",host-category="cattle"]:0.0)[&label="NODE_0000246",host-category="cattle"]:0.0)[&label="NODE_0000245",host-category="cattle"]:0.0)[&label="NODE_0000244",host-category="cattle"]:0.0)[&label="NODE_0000243",host-category="cattle"]:0.0)[&label="NODE_0000242",host-category="cattle"]:0.0)[&label="NODE_0000241",host-category="cattle"]:0.0)[&label="NODE_0000240",host-category="cattle"]:0.0)[&label="NODE_0000239",host-category="cattle"]:0.0)[&label="NODE_0000238",host-category="cattle"]:0.0)[&label="NODE_0000237",host-category="cattle"]:0.0)[&label="NODE_0000236",host-category="cattle"]:0.0)[&label="NODE_0000235",host-category="cattle"]:0.0)[&label="NODE_0000234",host-category="cattle"]:0.0)[&label="NODE_0000233",host-category="cattle"]:0.0)[&label="NODE_0000232",host-category="cattle"]:0.0)[&label="NODE_0000231",host-category="cattle"]:0.0)[&label="NODE_0000230",host-category="cattle"]:0.0)[&label="NODE_0000229",host-category="cattle"]:0.0)[&label="NODE_0000228",host-category="cattle"]:0.0)[&label="NODE_0000227",host-category="cattle"]:0.0)[&label="NODE_0000226",host-category="cattle"]:0.0)[&label="NODE_0000225",host-category="cattle"]:0.0)[&label="NODE_0000224",host-category="cattle"]:0.0)[&label="NODE_0000223",host-category="cattle"]:0.0)[&label="NODE_0000222",host-category="cattle"]:0.0)[&label="NODE_0000221",host-category="cattle"]:0.0)[&label="NODE_0000220",host-category="cattle"]:0.0)[&label="NODE_0000219",host-category="cattle"]:0.0)[&label="NODE_0000218",host-category="cattle"]:0.0)[&label="NODE_0000217",host-category="cattle"]:0.0)[&label="NODE_0000216",host-category="cattle"]:0.0)[&label="NODE_0000215",host-category="cattle"]:0.0)[&label="NODE_0000214",host-category="cattle"]:0.0)[&label="NODE_0000213",host-category="cattle"]:0.0)[&label="NODE_0000212",host-category="cattle"]:0.0)[&label="NODE_0000211",host-category="cattle"]:0.0)[&label="NODE_0000210",host-category="cattle"]:0.0)[&label="NODE_0000209",host-category="cattle"]:0.0)[&label="NODE_0000208",host-category="cattle"]:0.0)[&label="NODE_0000207",host-category="cattle"]:0.0)[&label="NODE_0000206",host-category="cattle"]:0.0)[&label="NODE_0000205",host-category="cattle"]:0.0)[&label="NODE_0000204",host-category="cattle"]:0.0)[&label="NODE_0000203",host-category="cattle"]:0.0)[&label="NODE_0000202",host-category="cattle"]:0.0)[&label="NODE_0000201",host-category="cattle"]:0.0)[&label="NODE_0000200",host-category="cattle"]:0.0)[&label="NODE_0000199",host-category="cattle"]:0.0)[&label="NODE_0000198",host-category="cattle"]:0.0)[&label="NODE_0000197",host-category="cattle"]:0.0)[&label="NODE_0000196",host-category="cattle"]:0.0)[&label="NODE_0000195",host-category="cattle"]:0.0)[&label="NODE_0000194",host-category="cattle"]:0.0)[&label="NODE_0000193",host-category="cattle"]:0.0)[&label="NODE_0000192",host-category="cattle"]:0.0)[&label="NODE_0000191",host-category="cattle"]:0.0)[&label="NODE_0000190",host-category="cattle"]:0.0)[&label="NODE_0000189",host-category="cattle"]:0.0)[&label="NODE_0000188",host-category="cattle"]:0.0)[&label="NODE_0000187",host-category="cattle"]:0.0)[&label="NODE_0000186",host-category="cattle"]:0.0)[&label="NODE_0000185",host-category="cattle"]:0.0)[&label="NODE_0000184",host-category="cattle"]:0.0)[&label="NODE_0000183",host-category="cattle"]:0.0)[&label="NODE_0000182",host-category="cattle"]:0.0)[&label="NODE_0000181",host-category="cattle"]:0.0)[&label="NODE_0000180",host-category="cattle"]:0.0)[&label="NODE_0000179",host-category="cattle"]:0.0)[&label="NODE_0000178",host-category="cattle"]:0.0)[&label="NODE_0000177",host-category="cattle"]:0.0)[&label="NODE_0000176",host-category="cattle"]:0.0)[&label="NODE_0000175",host-category="cattle"]:0.0)[&label="NODE_0000174",host-category="cattle"]:0.0)[&label="NODE_0000173",host-category="cattle"]:0.0)[&label="NODE_0000172",host-category="cattle"]:0.0)[&label="NODE_0000171",host-category="cattle"]:0.0)[&label="NODE_0000170",host-category="cattle"]:0.0)[&label="NODE_0000169",host-category="cattle"]:0.0)[&label="NODE_0000168",host-category="cattle"]:0.0)[&label="NODE_0000167",host-category="cattle"]:0.0)[&label="NODE_0000166",host-category="cattle"]:0.0)[&label="NODE_0000165",host-category="cattle"]:0.0)[&label="NODE_0000164",host-category="cattle"]:0.0)[&label="NODE_0000163",host-category="cattle"]:0.0)[&label="NODE_0000162",host-category="cattle"]:0.0)[&label="NODE_0000161",host-category="cattle"]:0.0)[&label="NODE_0000160",host-category="cattle"]:0.0)[&label="NODE_0000159",host-category="cattle"]:0.0)[&label="NODE_0000158",host-category="cattle"]:0.0)[&label="NODE_0000157",host-category="cattle"]:0.0)[&label="NODE_0000156",host-category="cattle"]:0.0)[&label="NODE_0000155",host-category="cattle"]:0.0)[&label="NODE_0000154",host-category="cattle"]:0.0)[&label="NODE_0000153",host-category="cattle"]:0.0)[&label="NODE_0000152",host-category="cattle"]:0.0)[&label="NODE_0000151",host-category="cattle"]:0.0)[&label="NODE_0000150",host-category="cattle"]:0.0)[&label="NODE_0000149",host-category="cattle"]:0.0)[&label="NODE_0000148",host-category="cattle"]:0.0)[&label="NODE_0000147",host-category="cattle"]:0.0)[&label="NODE_0000146",host-category="cattle"]:0.0)[&label="NODE_0000145",host-category="cattle"]:0.0)[&label="NODE_0000144",host-category="cattle"]:0.0)[&label="NODE_0000143",host-category="cattle"]:0.0)[&label="NODE_0000142",host-category="cattle"]:0.0)[&label="NODE_0000141",host-category="cattle"]:0.0)[&label="NODE_0000140",host-category="cattle"]:0.0)[&label="NODE_0000139",host-category="cattle"]:0.0)[&label="NODE_0000138",host-category="cattle"]:0.0)[&label="NODE_0000137",host-category="cattle"]:0.0)[&label="NODE_0000136",host-category="cattle"]:0.0)[&label="NODE_0000135",host-category="cattle"]:0.0)[&label="NODE_0000134",host-category="cattle"]:0.0)[&label="NODE_0000133",host-category="cattle"]:0.0)[&label="NODE_0000132",host-category="cattle"]:0.0)[&label="NODE_0000131",host-category="cattle"]:0.0)[&label="NODE_0000130",host-category="cattle"]:0.0)[&label="NODE_0000129",host-category="cattle"]:0.0)[&label="NODE_0000128",host-category="cattle"]:0.0)[&label="NODE_0000127",host-category="cattle"]:0.0)[&label="0/9",host-category="cattle"]:0.0)[&label="0/14",host-category="cattle"]:0.0)[&label="0/6",host-category="cattle"]:0.0)[&label="0/5",host-category="cattle"]:0.0)[&label="0/7",host-category="cattle"]:0.0)[&label="0/6",host-category="cattle"]:0.0)[&label="0/3",host-category="cattle"]:0.0)[&label="0/8",host-category="cattle"]:0.0)[&label="0/8",host-category="cattle"]:0.0)[&label="0/2",host-category="cattle"]:0.0)[&label="0/7",host-category="cattle"]:0.0)[&label="0/10",host-category="cattle"]:0.0)[&label="0/0",host-category="cattle"]:0.0)[&label="0/7",host-category="cattle"]:0.0)[&label="0/14",host-category="cattle"]:0.0)[&label="0/12",host-category="cattle"]:0.0)[&label="77.2/90",host-category="cattle"]:0.00102)[&label="NODE_0000000"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Adobe Devanagari";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=4.0E-4;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

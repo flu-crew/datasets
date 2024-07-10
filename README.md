@@ -2,6 +2,11 @@
 
 flu-crew datasets used in manuscripts, tutorials, and other work.
 
+## h5n1-cattle-experiment
+
+Phylogenetic analysis and withn-host variant calling analysis for:
+Baker et al. Experimental reproduction of viral replication and disease in dairy calves and lactating cows inoculated with highly pathogenic avian influenza H5N1 clade 2.3.4.4b.
+
 ## h3-2019-spillover
 
 Phylogenetic analysis files for:

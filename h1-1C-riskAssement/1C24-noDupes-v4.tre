@@ -1,0 +1,208 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=106;
+	taxlabels
+	'CVV||||||lab-22-a||lab-23-a|lab-23-b|A/Bretagne/24241/2021|H1N2|Human|FRA|1C.2.4|2021-08-18'
+	'offlu-vcm||lab-20-a|lab-20-b||||A/swine/Italy/49456-3/2019|H1N2|Swine|ITA|1C.2.4|2019-02-11'
+	'offlu-vcm||||lab-21-a|||A/Sw/France/29-200254/2020|H1N2|Swine|FRA|1C.2.4|2020-08-13'
+	'offlu-vcm||||lab-21-a|||A/swine/Italy/69273/2020|H1N1|Swine|ITA|1C.2.4|2020-02-26'
+	'offlu-vcm|||||lab-21-b||A/swine/Italy/114436/2021|H1N2|Swine|ITA|1C.2.4|2021-04-01'
+	'offlu-vcm|||||lab-21-b||A/swine/Italy/383470/2020|H1N2|Swine|ITA|1C.2.4|2020-11-23'
+	'offlu-vcm|||||lab-21-b|||A/swine/Italy/97879/2021|H1N2|Swine|ITA|1C.2.4|2021-03-19'
+	'offlu-vcm||||||lab-22-a|A/swine/France/56-180424/2018|H1N2|Swine|FRA|1C.2.4|2018-10-23'
+	'offlu-vcm||||||lab-22-a|A/swine/Italy/358072/2021|H1N2|Swine|ITA|1C.2.4|2021-10-20'
+	'offlu-vcm||||||lab-22-a||A/swine/France/72-210055-1/2021|H1N2|Swine|FRA|1C.2.4|2021-01-11'
+	'offlu-vcm|||||||A/swine/Italy/238819-1/2021|H1N1|Swine|ITA|1C.2.4|2021-07-13'
+	'offlu-vcm|||||||A/swine/Italy/260451/2021|H1N2|Swine|ITA|1C.2.4|2021-07-30'
+	'offlu-vcm|||||||A/swine/Italy/331116/2021|H1N2|Swine|ITA|1C.2.4|2021-09-28'
+	'offlu-vcm|||||||A/swine/Italy/348423/2021|H1N2|Swine|ITA|1C.2.4|2021-10-13'
+	'offlu-vcm|||||||A/swine/Italy/375366/2021|H1N2|Swine|ITA|1C.2.4|2021-11-03'
+	'offlu-vcm|||||||A/swine/Italy/96050/2021|H1N2|Swine|ITA|1C.2.4|2021-03-18'
+	'offlu-vcm|||||||A/swine/Italy/99371/2021|H1N2|Swine|ITA|1C.2.4|2021-03-22'
+	'offlu-vcm||||||||A/swine/France/35-210140-1/2021|H1N2|Swine|FRA|1C.2.4|2021-02-15'
+	'offlu-vcm||||||||A/swine/France/53-210091-2/2021|H1N2|Swine|FRA|1C.2.4|2021-01-21'
+	'offlu-vcm||||||||A/swine/Italy/110521-5/2022|H1N2|Swine|ITA|1C.2.4|2022-3-31'
+	'offlu-vcm||||||||A/swine/Italy/119919-003/2022|H1N2|Swine|ITA|1C.2.4|2022-4-6'
+	'offlu-vcm||||||||A/swine/Italy/120575/2022|H1N2|Swine|ITA|1C.2.4|2022-4-11'
+	'offlu-vcm||||||||A/swine/Italy/398937/2021|H1N2|Swine|ITA|1C.2.4|2021-11-18'
+	'offlu-vcm||||||||A/swine/Italy/416754/2021|H1N2|Swine|ITA|1C.2.4|2021-12-1'
+	'offlu-vcm||||||||A/swine/Italy/418974/2021|H1N2|Swine|ITA|1C.2.4|2021-12-2'
+	'offlu-vcm||||||||A/swine/Italy/71791/2022|H1N2|Swine|ITA|1C.2.4|2022-2-28'
+	'offlu-vcm||||||||A/swine/Italy/72983-3/2022|H1N2|Swine|ITA|1C.2.4|2022-3-1'
+	'offlu-vcm||||||||A/swine/Italy/72999-4/2022|H1N2|Swine|ITA|1C.2.4|2022-3-1'
+	'offlu-vcm|||||||||A/swine/AI00322/2022|H1N2|Swine|DEU|1C.2.4|2022-01-02'
+	'offlu-vcm|||||||||A/swine/AI00342/2022|H1N2|Swine|DEU|1C.2.4|2022-04-22'
+	'offlu-vcm|||||||||A/swine/AI00344/2022|H1N2|Swine|DEU|1C.2.4|2022-05-18'
+	'offlu-vcm|||||||||A/swine/AI01629/2022|H1N2|Swine|DEU|1C.2.4|2022-04-26'
+	'offlu-vcm|||||||||A/swine/AI02262/2022|H1N2|Swine|DEU|1C.2.4|2022-04-19'
+	'offlu-vcm|||||||||A/swine/AI02265/2022|H1N2|Swine|DEU|1C.2.4|2022-02-17'
+	'offlu-vcm|||||||||A/swine/AI02393/2022|H1N2|Swine|DEU|1C.2.4|2022-04-04'
+	'offlu-vcm|||||||||A/swine/AI02395/2022|H1N2|Swine|DEU|1C.2.4|2022-05-19'
+	'offlu-vcm|||||||||A/swine/AI03650/2022|H1N2|Swine|DEU|1C.2.4|2022-07-19'
+	'offlu-vcm|||||||||A/swine/AI03758/2022|H1N2|Swine|DEU|1C.2.4|2022-10-12'
+	'offlu-vcm|||||||||A/swine/AI04462/2022|H1N2|Swine|DEU|1C.2.4|2022-12-26'
+	'offlu-vcm|||||||||A/swine/AI05072/2021|H1N2|Swine|DEU|1C.2.4|2021-05-23'
+	'offlu-vcm|||||||||A/swine/AI08777/2021|H1N2|Swine|DEU|1C.2.4|2021-03-25'
+	'offlu-vcm|||||||||A/swine/Italy/119919-3/2022|H1N2|Swine|ITA|1C.2.4|2022-04-06'
+	'offlu-vcm|||||||||A/swine/Italy/234960/2022|H1N2|Swine|ITA|1C.2.4|2022-07-19'
+	'offlu-vcm|||||||||lab-23-b|A/swine/Germany/AI03649/2022|H1N2|Swine|DEU|1C.2.4|2022-07-27'
+	'offlu-vcm|||||||||lab-23-b|A/swine/Germany/AI04411/2022|H1N2|Swine|DEU|1C.2.4|2022-08-31'
+	'offlu-vcm||||||||||A/Sw/France/24-230094-2/2022|H1N2|Swine|FRA|1C.2.4|2022-11-09'
+	'offlu-vcm||||||||||A/swine/Germany/AI05596/2021|H1N1|Swine|DEU|1C.2.4|2022-04-09'
+	'offlu-vcm||||||||||A/swine/Italy/108064-01/2023|H1N2|Swine|ITA|1C.2.4|2023-04-06'
+	'offlu-vcm||||||||||A/swine/Italy/16030-01/2023|H1N2|Swine|ITA|1C.2.4|2023-01-16'
+	'offlu-vcm||||||||||A/swine/Italy/26664-01/2023|H1N2|Swine|ITA|1C.2.4|2023-01-24'
+	'offlu-vcm||||||||||A/swine/Italy/348117-1/2022|H1N2|Swine|ITA|1C.2.4|2022-10-25'
+	'offlu-vcm||||||||||A/swine/Italy/348117-6/2022|H1N2|Swine|ITA|1C.2.4|2022-10-25'
+	'offlu-vcm||||||||||A/swine/Italy/359928-10/2022|H1N2|Swine|ITA|1C.2.4|2022-11-03'
+	'offlu-vcm||||||||||A/swine/Italy/395812-01/2022|H1N2|Swine|ITA|1C.2.4|2022-11-30'
+	'offlu-vcm||||||||||A/swine/Italy/41618-01/2023|H1N2|Swine|ITA|1C.2.4|2023-01-27'
+	'offlu-vcm||||||||||A/swine/Italy/44343-03/2023|H1N2|Swine|ITA|1C.2.4|2023-02-07'
+	'offlu-vcm||||||||||A/swine/Italy/6873-01/2023|H1N2|Swine|ITA|1C.2.4|2023-01-09'
+	'offlu-vcm||||||||||A/swine/Italy/74423-01/2023|H1N2|Swine|ITA|1C.2.4|2023-03-08'
+	'offlu-vcm||||||||||A/swine/Italy/94177-02/2023|H1N2|Swine|ITA|1C.2.4|2023-03-24'
+	'publicIAV|||||||A/swine/Denmark/2017_10640_2_2p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_11771_1_1p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_11806_2_2p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_1210_2/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_1224_1_1p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_13371_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_13494_4_4p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_14412_1_1p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_17672_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_18204_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_2139_4_1p1/2017|H1N1|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_2178_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_2858_2_2p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_5014_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_6106_2_2p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2017_7744_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01'
+	'publicIAV|||||||A/swine/Denmark/2018_12352_2_1p1/2018|H1N1|Swine|DNK|1C.2.4|2018-01-01'
+	'publicIAV|||||||A/swine/Denmark/2018_13990_1_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01'
+	'publicIAV|||||||A/swine/Denmark/2018_14097_3_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01'
+	'publicIAV|||||||A/swine/Denmark/2018_16865_1_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01'
+	'publicIAV|||||||A/swine/Denmark/2018_2991_2_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01'
+	'publicIAV|||||||A/swine/Denmark/2018_3946_1_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01'
+	'publicIAV|||||||A/swine/Denmark/2018_4528_2_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01'
+	'publicIAV|||||||A/swine/Denmark/2018_455_1_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01'
+	'publicIAV|||||||A/swine/Italy/17-34594-3/2017|H1N2|Swine|ITA|1C.2.4|2017-02-24'
+	'publicIAV|||||||A/swine/Italy/18-170704/2018|H1N2|Swine|ITA|1C.2.4|2018-12-14'
+	'publicIAV|||||||A/swine/Italy/19-125153_7/2019|H1N2|Swine|ITA|1C.2.4|2019-09-26'
+	'publicIAV|||||||A/swine/Italy/20-98963_3/2020|H1N1|Swine|ITA|1C.2.4|2020-08-11'
+	'publicIAV||||||||A/sw/Sachsen-Anhalt/2/2021|H1N2|Swine|DEU|1C.2.4|2021-12-02'
+	'publicIAV||||||||A/sw/Sachsen-Anhalt/2/2022|H1N2|Swine|DEU|1C.2.4|2022-03-17'
+	'publicIAV||||||||A/sw/Sachsen-Anhalt/3/2021|H1N2|Swine|DEU|1C.2.4|2021-12-02'
+	'publicIAV||||||||A/sw/Sachsen-Anhalt/3/2022|H1N2|Swine|DEU|1C.2.4|2022-03-17'
+	'publicIAV||||||||A/swine/Denmark/S05812-5/2020|H1N2|Swine|DNK|1C.2.4|2020-07-09'
+	'publicIAV||||||||A/swine/Italy/258481/2020|H1N2|Swine|ITA|1C.2.4|2020-08-26'
+	'publicIAV||||||||A/swine/Italy/326417/2020|H1N1|Swine|ITA|1C.2.4|2020-10-14'
+	'publicIAV||||||||A/swine/Italy/332220/2020|H1N2|Swine|ITA|1C.2.4|2020-10-20'
+	'publicIAV||||||||A/swine/Italy/340406/2020|H1N2|Swine|ITA|1C.2.4|2020-10-23'
+	'publicIAV||||||||A/swine/Italy/381442/2020|H1N2|Swine|ITA|1C.2.4|2020-11-23'
+	'publicIAV||||||||A/swine/Italy/400367/2020|H1N2|Swine|ITA|1C.2.4|2020-12-07'
+	'publicIAV||||||||A/swine/Pskov_2_Region/RII-31S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01'
+	'publicIAV||||||||A/swine/Pskov_3_Region/RII-17S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01'
+	'publicIAV||||||||A/swine/Pskov_4_Region/RII-14S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01'
+	'publicIAV||||||||A/swine/Pskov_5_Region/RII-12S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01'
+	'publicIAV||||||||A/swine/Pskov_Region/RII-36S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01'
+	'publicIAV|||||||||A/swine/Italy/49701-6/2022|H1N2|Swine|ITA|1C.2.4|2022-02'
+	'publicIAV||||||||||A/sw/Sachsen-Anhalt/49/2022|H1N2|Swine|DEU|1C.2.4|2022-11-28'
+	'variant|||||||A/Austria/1445532/2021|H1N2|Human|AUT|1C.2.4|2021-08-30'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('publicIAV|||||||A/swine/Denmark/2017_18204_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.027858,('publicIAV|||||||A/swine/Denmark/2018_4528_2_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01':0.039984,((('offlu-vcm||||||||A/swine/Italy/120575/2022|H1N2|Swine|ITA|1C.2.4|2022-4-11':6.74E-4,('offlu-vcm||||||||||A/swine/Italy/74423-01/2023|H1N2|Swine|ITA|1C.2.4|2023-03-08':6.6E-4,'offlu-vcm||||||||||A/swine/Italy/108064-01/2023|H1N2|Swine|ITA|1C.2.4|2023-04-06':6.75E-4)[&bootstrap=0.95]:0.002678)[&bootstrap=0.974]:0.006906,(('offlu-vcm|||||||||A/swine/Italy/119919-3/2022|H1N2|Swine|ITA|1C.2.4|2022-04-06':0.0,'offlu-vcm||||||||A/swine/Italy/119919-003/2022|H1N2|Swine|ITA|1C.2.4|2022-4-6':0.0):5.83E-4,('offlu-vcm||||||||||A/swine/Italy/44343-03/2023|H1N2|Swine|ITA|1C.2.4|2023-02-07':0.001329,'offlu-vcm||||||||||A/swine/Italy/94177-02/2023|H1N2|Swine|ITA|1C.2.4|2023-03-24':0.005369)[&bootstrap=0.746]:7.62E-4)[&bootstrap=0.79]:0.00398)[&bootstrap=1.0]:0.051836,(('publicIAV|||||||A/swine/Italy/17-34594-3/2017|H1N2|Swine|ITA|1C.2.4|2017-02-24':0.041587,('offlu-vcm|||||||||A/swine/AI02393/2022|H1N2|Swine|DEU|1C.2.4|2022-04-04':0.002327,'offlu-vcm|||||||||A/swine/AI08777/2021|H1N2|Swine|DEU|1C.2.4|2021-03-25':3.81E-4)[&bootstrap=1.0]:0.073324)[&bootstrap=1.0]:0.034846,(((('offlu-vcm||||lab-21-a|||A/swine/Italy/69273/2020|H1N1|Swine|ITA|1C.2.4|2020-02-26':0.004064,('publicIAV||||||||A/swine/Italy/326417/2020|H1N1|Swine|ITA|1C.2.4|2020-10-14':0.004093,('publicIAV|||||||A/swine/Italy/20-98963_3/2020|H1N1|Swine|ITA|1C.2.4|2020-08-11':6.69E-4,'offlu-vcm|||||||A/swine/Italy/238819-1/2021|H1N1|Swine|ITA|1C.2.4|2021-07-13':0.001362)[&bootstrap=0.909]:0.002039)[&bootstrap=0.858]:0.001374)[&bootstrap=0.938]:0.003637,('publicIAV||||||||A/swine/Italy/332220/2020|H1N2|Swine|ITA|1C.2.4|2020-10-20':0.00585,(('offlu-vcm|||||||A/swine/Italy/260451/2021|H1N2|Swine|ITA|1C.2.4|2021-07-30':0.0,'offlu-vcm|||||||A/swine/Italy/348423/2021|H1N2|Swine|ITA|1C.2.4|2021-10-13':8.27E-4)[&bootstrap=0.993]:0.009318,('publicIAV||||||||A/swine/Italy/258481/2020|H1N2|Swine|ITA|1C.2.4|2020-08-26':0.001371,'publicIAV|||||||||A/swine/Italy/49701-6/2022|H1N2|Swine|ITA|1C.2.4|2022-02':0.010338)[&bootstrap=0.753]:6.59E-4)[&bootstrap=0.752]:0.001014)[&bootstrap=0.989]:0.006562)[&bootstrap=0.997]:0.010946,('offlu-vcm|||||||||A/swine/AI04462/2022|H1N2|Swine|DEU|1C.2.4|2022-12-26':0.035829,((('offlu-vcm|||||||||lab-23-b|A/swine/Germany/AI03649/2022|H1N2|Swine|DEU|1C.2.4|2022-07-27':6.26E-4,'offlu-vcm|||||||||A/swine/AI03650/2022|H1N2|Swine|DEU|1C.2.4|2022-07-19':0.002755)[&bootstrap=1.0]:0.026738,'publicIAV|||||||A/swine/Denmark/2018_2991_2_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01':0.009131)[&bootstrap=0.726]:4.12E-4,('offlu-vcm||||||lab-22-a|A/swine/France/56-180424/2018|H1N2|Swine|FRA|1C.2.4|2018-10-23':0.015606,(('publicIAV||||||||A/swine/Italy/381442/2020|H1N2|Swine|ITA|1C.2.4|2020-11-23':0.0,'publicIAV||||||||A/swine/Italy/400367/2020|H1N2|Swine|ITA|1C.2.4|2020-12-07':0.0):5.57E-4,('offlu-vcm||||||||||A/swine/Italy/395812-01/2022|H1N2|Swine|ITA|1C.2.4|2022-11-30':6.58E-4,'offlu-vcm||||||||||A/swine/Italy/6873-01/2023|H1N2|Swine|ITA|1C.2.4|2023-01-09':0.001383)[&bootstrap=1.0]:0.016015)[&bootstrap=1.0]:0.023828)[&bootstrap=0.582]:1.23E-4)[&bootstrap=0.764]:8.55E-4)[&bootstrap=0.75]:0.001814)[&bootstrap=1.0]:0.055851,(('publicIAV|||||||A/swine/Denmark/2017_2139_4_1p1/2017|H1N1|Swine|DNK|1C.2.4|2017-01-01':0.069091,('publicIAV|||||||A/swine/Denmark/2017_2178_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.064733,(('publicIAV|||||||A/swine/Denmark/2017_6106_2_2p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.006951,(('publicIAV||||||||A/swine/Denmark/S05812-5/2020|H1N2|Swine|DNK|1C.2.4|2020-07-09':0.015199,(('offlu-vcm||lab-20-a|lab-20-b||||A/swine/Italy/49456-3/2019|H1N2|Swine|ITA|1C.2.4|2019-02-11':6.62E-4,('offlu-vcm|||||||A/swine/Italy/96050/2021|H1N2|Swine|ITA|1C.2.4|2021-03-18':6.78E-4,'offlu-vcm|||||||A/swine/Italy/99371/2021|H1N2|Swine|ITA|1C.2.4|2021-03-22':0.0)[&bootstrap=1.0]:0.009615)[&bootstrap=0.989]:0.00621,('offlu-vcm|||||lab-21-b||A/swine/Italy/383470/2020|H1N2|Swine|ITA|1C.2.4|2020-11-23':0.004358,('offlu-vcm||||||||||A/swine/Italy/41618-01/2023|H1N2|Swine|ITA|1C.2.4|2023-01-27':0.003876,'offlu-vcm||||||||||A/swine/Italy/16030-01/2023|H1N2|Swine|ITA|1C.2.4|2023-01-16':0.008367)[&bootstrap=0.987]:0.007103)[&bootstrap=1.0]:0.013048)[&bootstrap=0.968]:0.004169)[&bootstrap=0.432]:0.001028,('offlu-vcm||||||||||A/swine/Germany/AI05596/2021|H1N1|Swine|DEU|1C.2.4|2022-04-09':6.8E-4,('offlu-vcm|||||||||A/swine/AI01629/2022|H1N2|Swine|DEU|1C.2.4|2022-04-26':0.0,('offlu-vcm|||||||||A/swine/AI02265/2022|H1N2|Swine|DEU|1C.2.4|2022-02-17':0.0,'offlu-vcm|||||||||A/swine/AI02262/2022|H1N2|Swine|DEU|1C.2.4|2022-04-19':6.8E-4)[&bootstrap=0.825]:6.8E-4)[&bootstrap=0.48]:0.0)[&bootstrap=1.0]:0.020532)[&bootstrap=0.625]:0.001726)[&bootstrap=1.0]:0.032797,('publicIAV|||||||A/swine/Denmark/2017_11806_2_2p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.025566,(((('offlu-vcm||||||||A/swine/France/53-210091-2/2021|H1N2|Swine|FRA|1C.2.4|2021-01-21':0.003393,('CVV||||||lab-22-a||lab-23-a|lab-23-b|A/Bretagne/24241/2021|H1N2|Human|FRA|1C.2.4|2021-08-18':0.007514,'offlu-vcm||||||||A/swine/France/35-210140-1/2021|H1N2|Swine|FRA|1C.2.4|2021-02-15':0.004764)[&bootstrap=0.0]:0.0)[&bootstrap=0.812]:6.8E-4,'offlu-vcm||||lab-21-a|||A/Sw/France/29-200254/2020|H1N2|Swine|FRA|1C.2.4|2020-08-13':6.77E-4)[&bootstrap=0.711]:5.38E-4,'offlu-vcm||||||lab-22-a||A/swine/France/72-210055-1/2021|H1N2|Swine|FRA|1C.2.4|2021-01-11':0.001498)[&bootstrap=1.0]:0.044697,('offlu-vcm|||||||||A/swine/AI02395/2022|H1N2|Swine|DEU|1C.2.4|2022-05-19':0.036925,'publicIAV|||||||A/swine/Denmark/2017_1224_1_1p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.024174)[&bootstrap=0.98]:0.010128)[&bootstrap=0.776]:0.002581)[&bootstrap=0.999]:0.016868)[&bootstrap=0.997]:0.020854)[&bootstrap=0.966]:0.008778)[&bootstrap=0.891]:0.005756,(('offlu-vcm||||||||||A/swine/Italy/26664-01/2023|H1N2|Swine|ITA|1C.2.4|2023-01-24':0.031305,'offlu-vcm|||||||||lab-23-b|A/swine/Germany/AI04411/2022|H1N2|Swine|DEU|1C.2.4|2022-08-31':0.025336)[&bootstrap=0.883]:0.00383,(('publicIAV|||||||A/swine/Italy/19-125153_7/2019|H1N2|Swine|ITA|1C.2.4|2019-09-26':0.006871,('publicIAV||||||||A/swine/Italy/340406/2020|H1N2|Swine|ITA|1C.2.4|2020-10-23':0.005485,('offlu-vcm||||||||A/swine/Italy/71791/2022|H1N2|Swine|ITA|1C.2.4|2022-2-28':0.002692,('offlu-vcm|||||lab-21-b||A/swine/Italy/114436/2021|H1N2|Swine|ITA|1C.2.4|2021-04-01':6.71E-4,('offlu-vcm|||||lab-21-b|||A/swine/Italy/97879/2021|H1N2|Swine|ITA|1C.2.4|2021-03-19':0.001343,('offlu-vcm||||||||A/swine/Italy/416754/2021|H1N2|Swine|ITA|1C.2.4|2021-12-1':6.66E-4,'offlu-vcm||||||||A/swine/Italy/110521-5/2022|H1N2|Swine|ITA|1C.2.4|2022-3-31':0.002696)[&bootstrap=0.873]:0.001352)[&bootstrap=0.0]:0.0)[&bootstrap=0.148]:0.0)[&bootstrap=0.893]:0.001965)[&bootstrap=0.999]:0.013048)[&bootstrap=0.967]:0.005033,'offlu-vcm|||||||||A/swine/Italy/234960/2022|H1N2|Swine|ITA|1C.2.4|2022-07-19':0.033452)[&bootstrap=0.697]:8.63E-4)[&bootstrap=1.0]:0.067861)[&bootstrap=0.599]:0.003294)[&bootstrap=0.996]:0.025878)[&bootstrap=1.0]:0.042568)[&bootstrap=0.784]:0.003579)[&bootstrap=0.94]:0.005485)[&bootstrap=0.614]:2.7E-4,('publicIAV|||||||A/swine/Denmark/2018_455_1_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01':0.02915,('publicIAV|||||||A/swine/Denmark/2017_14412_1_1p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.015254,'publicIAV|||||||A/swine/Denmark/2017_2858_2_2p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.013229)[&bootstrap=0.979]:0.006843)[&bootstrap=0.888]:0.002818,(((('publicIAV|||||||A/swine/Denmark/2018_12352_2_1p1/2018|H1N1|Swine|DNK|1C.2.4|2018-01-01':0.032544,('publicIAV|||||||A/swine/Denmark/2017_13494_4_4p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.002789,('publicIAV|||||||A/swine/Denmark/2017_13371_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.001019,('publicIAV|||||||A/swine/Denmark/2018_14097_3_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01':0.016998,(('offlu-vcm|||||||A/swine/Italy/331116/2021|H1N2|Swine|ITA|1C.2.4|2021-09-28':0.001395,('offlu-vcm||||||||A/swine/Italy/418974/2021|H1N2|Swine|ITA|1C.2.4|2021-12-2':0.0,'offlu-vcm||||||lab-22-a|A/swine/Italy/358072/2021|H1N2|Swine|ITA|1C.2.4|2021-10-20':6.72E-4)[&bootstrap=0.765]:6.23E-4)[&bootstrap=1.0]:0.028187,(((('publicIAV||||||||||A/sw/Sachsen-Anhalt/49/2022|H1N2|Swine|DEU|1C.2.4|2022-11-28':0.004057,'publicIAV||||||||A/sw/Sachsen-Anhalt/3/2022|H1N2|Swine|DEU|1C.2.4|2022-03-17':0.0)[&bootstrap=0.927]:0.001341,'publicIAV||||||||A/sw/Sachsen-Anhalt/3/2021|H1N2|Swine|DEU|1C.2.4|2021-12-02':0.0)[&bootstrap=0.79]:0.0,'publicIAV||||||||A/sw/Sachsen-Anhalt/2/2021|H1N2|Swine|DEU|1C.2.4|2021-12-02':6.7E-4)[&bootstrap=0.265]:0.0,'publicIAV||||||||A/sw/Sachsen-Anhalt/2/2022|H1N2|Swine|DEU|1C.2.4|2022-03-17':0.002685)[&bootstrap=1.0]:0.026743)[&bootstrap=0.814]:0.00266)[&bootstrap=1.0]:0.013013)[&bootstrap=0.571]:0.009296)[&bootstrap=0.996]:0.012005)[&bootstrap=0.438]:0.004531,('publicIAV|||||||A/swine/Denmark/2017_10640_2_2p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.023592,'publicIAV|||||||A/swine/Denmark/2018_13990_1_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01':0.03624)[&bootstrap=0.12]:0.001225)[&bootstrap=0.786]:0.0,(('publicIAV|||||||A/swine/Denmark/2017_7744_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.016154,(('publicIAV||||||||A/swine/Pskov_Region/RII-36S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01':0.0,'publicIAV||||||||A/swine/Pskov_3_Region/RII-17S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01':0.0,'publicIAV||||||||A/swine/Pskov_4_Region/RII-14S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01':0.0,'publicIAV||||||||A/swine/Pskov_5_Region/RII-12S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01':0.0):0.0,'publicIAV||||||||A/swine/Pskov_2_Region/RII-31S/2022|H1N2|Swine|RUS|1C.2.4|2022-03-01':6.68E-4)[&bootstrap=1.0]:0.035685)[&bootstrap=0.981]:0.00802,(('publicIAV|||||||A/swine/Denmark/2018_16865_1_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01':0.017785,(('offlu-vcm|||||||||A/swine/AI00342/2022|H1N2|Swine|DEU|1C.2.4|2022-04-22':0.032244,('offlu-vcm||||||||A/swine/Italy/398937/2021|H1N2|Swine|ITA|1C.2.4|2021-11-18':0.0,'offlu-vcm|||||||A/swine/Italy/375366/2021|H1N2|Swine|ITA|1C.2.4|2021-11-03':0.0):0.048908)[&bootstrap=0.89]:0.005401,('publicIAV|||||||A/swine/Denmark/2017_17672_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.008444,((('offlu-vcm||||||||||A/swine/Italy/359928-10/2022|H1N2|Swine|ITA|1C.2.4|2022-11-03':0.001348,('offlu-vcm||||||||||A/swine/Italy/348117-1/2022|H1N2|Swine|ITA|1C.2.4|2022-10-25':0.0,'offlu-vcm||||||||||A/swine/Italy/348117-6/2022|H1N2|Swine|ITA|1C.2.4|2022-10-25':6.74E-4)[&bootstrap=0.0]:0.0)[&bootstrap=0.855]:0.001348,('offlu-vcm||||||||A/swine/Italy/72999-4/2022|H1N2|Swine|ITA|1C.2.4|2022-3-1':0.0,'offlu-vcm||||||||A/swine/Italy/72983-3/2022|H1N2|Swine|ITA|1C.2.4|2022-3-1':0.001377)[&bootstrap=0.793]:0.0)[&bootstrap=1.0]:0.027549,('publicIAV|||||||A/swine/Denmark/2018_3946_1_1p1/2018|H1N2|Swine|DNK|1C.2.4|2018-01-01':0.003566,('offlu-vcm|||||||||A/swine/AI00322/2022|H1N2|Swine|DEU|1C.2.4|2022-01-02':0.010534,'variant|||||||A/Austria/1445532/2021|H1N2|Human|AUT|1C.2.4|2021-08-30':0.017608)[&bootstrap=0.929]:0.003412)[&bootstrap=0.954]:0.004599)[&bootstrap=0.783]:0.001345)[&bootstrap=1.0]:0.016585)[&bootstrap=0.389]:4.97E-4)[&bootstrap=0.904]:0.002264,(('offlu-vcm|||||||||A/swine/AI00344/2022|H1N2|Swine|DEU|1C.2.4|2022-05-18':0.010274,'offlu-vcm|||||||||A/swine/AI05072/2021|H1N2|Swine|DEU|1C.2.4|2021-05-23':0.002713)[&bootstrap=0.976]:0.005643,('offlu-vcm||||||||||A/Sw/France/24-230094-2/2022|H1N2|Swine|FRA|1C.2.4|2022-11-09':0.016253,'offlu-vcm|||||||||A/swine/AI03758/2022|H1N2|Swine|DEU|1C.2.4|2022-10-12':0.017567)[&bootstrap=0.621]:3.21E-4)[&bootstrap=1.0]:0.031354)[&bootstrap=0.654]:6.88E-4)[&bootstrap=0.869]:0.001816)[&bootstrap=0.514]:6.74E-4,('publicIAV|||||||A/swine/Italy/18-170704/2018|H1N2|Swine|ITA|1C.2.4|2018-12-14':0.033078,('publicIAV|||||||A/swine/Denmark/2017_5014_3_3p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.016025,('publicIAV|||||||A/swine/Denmark/2017_11771_1_1p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.016205,'publicIAV|||||||A/swine/Denmark/2017_1210_2/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01':0.010556)[&bootstrap=0.982]:0.008142)[&bootstrap=0.969]:0.006226)[&bootstrap=0.773]:0.001092)[&bootstrap=0.893]:0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=16.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

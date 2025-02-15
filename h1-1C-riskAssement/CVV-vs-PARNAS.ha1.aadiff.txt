@@ -1,0 +1,43 @@
+site	CVV||||||lab-22-a||lab-23-a|lab-23-b|A/Bretagne/24241/2021|H1N2|Human|FRA|1C.2.4|2021-08-18	publicIAV|||||||A/swine/Denmark/2017_13494_4_4p1/2017|H1N2|Swine|DNK|1C.2.4|2017-01-01	caton82
+5	I	V	
+20	M	L	
+36	N	S	
+56	D	N	
+71	V	L	Cb
+83	S	P	
+86	K	E	
+96	A	S	
+104	L	Q	
+120	-	A	
+121	N	T	
+125	S	N	Sa
+128	A	T	
+129	-	T	
+130	-	K	
+135	S	A	
+138	K	H	
+152	T	V	
+153	S	R	Sb
+155	G	R	Sa
+156	K	S	Sb
+157	P	S	Sa
+159	S	P	Sa
+163	K	G	Sa
+166	K	T	Ca1
+175	V	I	
+202	V	E	
+208	Q	R	
+216	P	T	
+219	E	K	
+224	R	A	
+237	E	G	Ca1
+252	R	W	
+258	E	D	
+261	S	L	
+262	N	S	
+266	M	V	
+267	K	M	
+269	D	E	
+288	S	G	
+289	D	N	
+290	R	L	

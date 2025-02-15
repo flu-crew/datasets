@@ -2,6 +2,12 @@
 
 flu-crew datasets used in manuscripts, tutorials, and other work.
 
+## h1-1C-riskAssement
+
+Phylogenetic analysis files for:
+Le Sage, V., Souza, C.K., Rockey, N.C., Shepard, M., Zanella, G.C., Arruda, B., Wang, S., Drapeau, E., Doyle, J.D., Xu, ., Barbeau, D.J., Paulson, J.C., McElroy, A.K., Hensley, S.E., Anderson, T.K., Baker, A.L., and Lakdawala, S.S. Eurasian 1C swine influenza A virus exhibits high pandemic risk traits.
+
+
 ## h3-2019-spillover
 
 Phylogenetic analysis files for:

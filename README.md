@@ -48,7 +48,7 @@ Kimble, J.B.; Souza, C.K.; Anderson, T.K.; Arendsee, Z.W.; Hufnagel, D.E.; Young
 
 Figures and data for: 
 
-Thomas, M.N.; Zanella, G.C.; Cowan, B.; Caceres C.J.; Rajao, D.S.; Perez, D.R.; Gauger, P.C.; Baker, A.L.; Anderson, T.K. Nucleoprotein reassortment enhanced transmissability of H3 1990.4.a clade influenza A virus in swine. (manuscript in preparation)
+Thomas, M.N.; Zanella, G.C.; Cowan, B.; Caceres C.J.; Rajao, D.S.; Perez, D.R.; Gauger, P.C.; Baker, A.L.; Anderson, T.K. Nucleoprotein reassortment enhanced transmissability of H3 1990.4.a clade influenza A virus in swine. [Journal of virology. 2024 Mar 19;98(3):e01703-23. DOI: 10.1128/jvi.01703-23](https://journals.asm.org/doi/full/10.1128/jvi.01703-23).
 
 ## h3-swinetoferret
 

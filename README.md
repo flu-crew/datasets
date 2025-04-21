@@ -3,7 +3,7 @@
 flu-crew datasets used in manuscripts, tutorials, and other work.
 
 ## OFFLU-variant-linelist
-We are grateful to the OFFLU Swine Group for their expertise and for sharing data.[OFFLU network}(https://www.offlu.org).
+We are grateful to the OFFLU Swine Group for their expertise and for sharing data.[OFFLU network](https://www.offlu.org).
 
 
 ## h1-1C-riskAssessment

@@ -22,7 +22,7 @@ We gratefully acknowledge all data contributors, i.e., the Authors and their Ori
 ## h5n1-hpai
 Arruda B, Baker AL, Buckley A, Anderson TK, Torchetti M, Bergeson NH, Killian ML, Lantz K. Divergent pathogenesis and transmission of highly pathogenic avian influenza A (H5N1) in swine. [Emerging Infectious Diseases. 2024 Apr;30(4):738. DOI: 10.3201/eid3004.231141](https://pmc.ncbi.nlm.nih.gov/articles/PMC10977838/).
 
-Raw FASTQ files are available by emailing tavis.anderson@usda.gov 
+Raw FASTQ files are available by emailing tavis.anderson@usda.gov
 
 The consensus genomes for the four strains are provided at NCBI Genbank or are hosted at GISAID. We gratefully acknowledge all data contributors, i.e., the Authors and their Originating laboratories responsible for obtaining the specimens, and their Submitting laboratories for generating the genetic sequence and metadata and sharing via the GISAID Initiative, on which components of this research is based. The GISAID acknowledgment table is provided in this repo.
 
@@ -46,7 +46,7 @@ Kimble, J.B.; Souza, C.K.; Anderson, T.K.; Arendsee, Z.W.; Hufnagel, D.E.; Young
 
 ## h3-np-reassortment
 
-Figures and data for: 
+Figures and data for:
 
 Thomas, M.N.; Zanella, G.C.; Cowan, B.; Caceres C.J.; Rajao, D.S.; Perez, D.R.; Gauger, P.C.; Baker, A.L.; Anderson, T.K. Nucleoprotein reassortment enhanced transmissability of H3 1990.4.a clade influenza A virus in swine. [Journal of Virology. 2024 Mar 19;98(3):e01703-23. DOI: 10.1128/jvi.01703-23](https://journals.asm.org/doi/full/10.1128/jvi.01703-23).
 
@@ -55,3 +55,8 @@ Thomas, M.N.; Zanella, G.C.; Cowan, B.; Caceres C.J.; Rajao, D.S.; Perez, D.R.; 
 Tree files and data for:
 
 Souza, C.K., Kimble, J.B., Anderson, T.K., Arendsee, Z.W., Hufnagel, D.E., Young, K.M., Gauger, P.C., Lewis, N.S., Davis, C.T., Thor, S., Vincent Baker, A.L. Transmission from swine-to-ferret of antigenically drifted contemporary swine H3N2 influenza A virus as indications of zoonotic risk to humans. [Viruses 2023, 15(2), 331. DOI: 10.3390/v15020331](https://pubmed.ncbi.nlm.nih.gov/36851547/).
+
+## h1-alphadel-N1-reassortment
+Tree files and data for:
+
+Goulart, D.N., Souza C.K., Zanella, G.C., Snyder, C., Zanella, J.C., Markin, A., Arruda, B., Anderson, T.K., Baker, A.L.  

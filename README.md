@@ -59,4 +59,4 @@ Souza, C.K., Kimble, J.B., Anderson, T.K., Arendsee, Z.W., Hufnagel, D.E., Young
 ## h1-alphadel-N1-reassortment
 Tree files and data for:
 
-Goulart, D.N., Souza C.K., Zanella, G.C., Snyder, C., Zanella, J.C., Markin, A., Arruda, B., Anderson, T.K., Baker, A.L.  
+Goulart, D.N., Souza C.K., Zanella, G.C., Snyder, C., Zanella, J.C., Markin, A., Arruda, B., Anderson, T.K., Baker, A.L. Pathogenesis and transmission of a reassorted H1 influenza A virus detected in North American swine. *In preparation.*  

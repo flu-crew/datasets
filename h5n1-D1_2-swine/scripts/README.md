@@ -1,0 +1,1 @@
+Scripts and source files to execute the analysis. The main workflow can be executed via `bash run.sh` after checking that all the required packages are installed (Biopython and genoflu-multi). Additionally, make sure to unzip the fasta file.

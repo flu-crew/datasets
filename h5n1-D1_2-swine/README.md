@@ -4,7 +4,7 @@
 
 1. Gene segments associated with H5 strains were downloaded from NCBI virus on Jun-24, 2025. We downloaded segments that were collected in North Americas starting 2022.
 
-2. All H5 strains that had all 8 segments were classified using [genoflu-multi](https://github.com/moncla-lab/GenoFLU-multi). The resulting FASTA file containing all segments and genoflu genotypes is in [NCBI_2025-06-24_s2022_NAM_classified.fasta](NCBI_2025-06-24_s2022_NAM_classified.fasta).
+2. All H5 strains that had all 8 segments were classified using [genoflu-multi](https://github.com/moncla-lab/GenoFLU-multi). The resulting FASTA file containing all segments and genoflu genotypes is in [NCBI_2025-06-24_s2022_NAM_classified.fasta](NCBI_2025-06-24_s2022_NAM_classified.fasta.zip).
 
 3. HA and NA segments were pulled, aligned using MAFFT v7.475, and trees were built using IQ-Tree v2.3.2. The trees were then midpoint rooted and ladderized using [TreeBender](https://github.com/RybergGroup/phylommand/tree/master?tab=readme-ov-file#treebender).
 

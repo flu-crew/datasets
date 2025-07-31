@@ -2,7 +2,7 @@
 
 flu-crew datasets used in manuscripts, tutorials, and other work.
 
-##occupational-swineIAV-risk
+## occupational-swineIAV-risk
 Data and files for:
 Celeste A. Snyder, Garrett M. Janzen, Giovana Ciacci Zanella, Daniel C. A. Moraes, Gustavo S. Silva, Jefferson J. S. Santos, Elizabeth M. Drapeau, Nancy H. L. Leung, Scott E. Hensley, Benjamin J. Cowling, Tavis K. Anderson, Phillip C. Gauger, and Amy L. Baker. Occupationally exposed and general population antibody profiles to influenza A viruses circulating in swine as an indication of zoonotic risk; 2021-22.
 

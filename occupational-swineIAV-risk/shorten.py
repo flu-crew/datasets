@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import sys
 import re
 
@@ -37,4 +40,5 @@ if __name__ == "__main__":
     output_file = sys.argv[2]
     field_indices = [int(i) for i in sys.argv[3:]]
     
+
     process_file(input_file, output_file, field_indices)

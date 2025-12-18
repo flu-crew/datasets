@@ -51,4 +51,4 @@
 
 #### Related Citations: ####
 
-1. Anderson TK, Chang J, Arendsee ZW, Venkatesh D, Souza CK, Kimble JB, Lewis NS, Davis CT, Vincent AL. Swine influenza A viruses and the tangled relationship with humans. Cold Spring Harbor perspectives in medicine. 2021 Mar 1;11(3):a038737.
+Celeste A. Snyder, Garrett M. Janzen, Giovana Ciacci Zanella, Daniel C. A. Moraes, Gustavo S. Silva, Jefferson J. S. Santos, Elizabeth M. Drapeau, Nancy H. L. Leung, Scott E. Hensley, Benjamin J. Cowling, Tavis K. Anderson, Phillip C. Gauger, and Amy L. Baker. Occupationally exposed and general population antibody profiles to influenza A viruses circulating in swine as an indication of zoonotic risk; 2021-22.

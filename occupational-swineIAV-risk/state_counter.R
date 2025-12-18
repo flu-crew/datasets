@@ -1,5 +1,5 @@
-files <- c("C:/Users/garrett.janzen/OneDrive - USDA/Projects/Celeste_Flu54/Phylogenetics/input_H1.fasta",
-           "C:/Users/garrett.janzen/OneDrive - USDA/Projects/Celeste_Flu54/Phylogenetics/input_H3.fasta") 
+files <- c("C:/Path/input_H1.fasta",
+           "C:/Path/input_H3.fasta") 
 all_lines <- unlist(lapply(files, readLines, warn = FALSE))
 headers <- grep("^>", all_lines, value = TRUE)
 parts <- strsplit(headers, "\\|", fixed = FALSE)
@@ -20,3 +20,4 @@ length(unique_states)
 tempdf <- unlist(parts)
 tempdf <- tempdf[grep("1B", tempdf, invert = FALSE)];tempdf
 table(tempdf)
+

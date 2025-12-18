@@ -36,23 +36,19 @@
   - (fixes strain names, from underscores to proper punctuation)
 - `python3 shorten.py H1_smot_fixed_renamed.tre H1_smot_fixed_renamed_shortened.tre 0 7 2`
 - `python3 shorten.py H3_smot_fixed_renamed.tre H3_smot_fixed_renamed_shortened.tre 0 7 2`
--   (fixes train names and coloring)
+  - (fixes train names and coloring)
 - Final name fixes were completed with Find/Replace in the H1_smot_fixed_renamed_shortened.tre and H3_smot_fixed_renamed_shortened.tre files
--   In both files:
--     Replace "||" with "|"
--     Replace "REF|" with ""
--   In the H1 file:
--    Replace "'REF|huVaccine|lab-22-b|'" with "'REF|huVaccine|A/Hawaii/70/2019|H1N1|2019'"
--    Replace "'REF|huVaccine|'" with "'REF|huVaccine|A/Beijing/262/1995|H1NX|1995'"
--   In the H3 file:
--     Replace "'REF|huVaccine|lab-20-a'" with "'REF|huVaccine|A/Port_Chalmers/1/1973|H3N2|1973'"
--     Replace "'REF|huVaccine|'" with "'REF|huVaccine|A/Hong_Kong/45/2019|H3N2|2018-12-24'"
+- In both files:
+  - Replace "||" with "|"
+  - Replace "REF|" with ""
+- In the H1 file:
+  - Replace "'REF|huVaccine|lab-22-b|'" with "'REF|huVaccine|A/Hawaii/70/2019|H1N1|2019'"
+  - Replace "'REF|huVaccine|'" with "'REF|huVaccine|A/Beijing/262/1995|H1NX|1995'"
+- In the H3 file:
+  - Replace "'REF|huVaccine|lab-20-a'" with "'REF|huVaccine|A/Port_Chalmers/1/1973|H3N2|1973'"
+  - Replace "'REF|huVaccine|'" with "'REF|huVaccine|A/Hong_Kong/45/2019|H3N2|2018-12-24'"
+- Tree rendering is completed in FigTree.
 
-
-#### FigTree ####
-- 
-
-
-#### related citations: ####
+#### Related Citations: ####
 
 1. Anderson TK, Chang J, Arendsee ZW, Venkatesh D, Souza CK, Kimble JB, Lewis NS, Davis CT, Vincent AL. Swine influenza A viruses and the tangled relationship with humans. Cold Spring Harbor perspectives in medicine. 2021 Mar 1;11(3):a038737.

@@ -1,0 +1,16 @@
+PREFIX onto: <http://www.ontotext.com/>
+PREFIX f: <https://flu-crew.org/term/>
+
+
+SELECT DISTINCT
+  ?strain
+  (GROUP_CONCAT(DISTINCT ?seqid; separator="+") as ?seqids)
+WHERE {
+  ?sid f:strain_name ?strain .
+  ?sid f:has_segment ?gid .
+  ?gid f:segment_name "HA" .
+  OPTIONAL { ?gid f:seqid ?seqid . }
+
+  FILTER REGEX(?strain, "A/Campo_Grande/LEIAL6538/2025|A/Greece/SRIHER-001/2022|A/Iowa/3/2021|A/Missouri/11/2025|A/Netherlands/10370-2/2020|A/Nordrhein-Westfalen/135/2025|A/Ohio/02/2021|A/Singapore/GP20238/2024|A/Sydney/1359/2024|A/Taiwan/1/2022|A/Taiwan/1/2023|A/Vermont/75/2025")
+}
+GROUP BY ?strain

@@ -53,6 +53,10 @@ IAV strains were selected to represent the genetic diversity of viruses circulat
   - Replace "'REF|huVaccine|'" with "'REF|huVaccine|A/Hong_Kong/45/2019|H3N2|2018-12-24'"
 - Tree rendering is completed in FigTree.
 
+#### Cohort Comparisons ####
+- flu54_scripts 1 through 9 processes HI data, producing boxplots demonstrating differences between cohorts for the various strains.
+- Odds ratio analyses are produced, calulcating the effect of cohort membership on seropositivity.
+
 #### Related Citations: ####
 
 Celeste A. Snyder, Garrett M. Janzen, Giovana Ciacci Zanella, Daniel C. A. Moraes, Gustavo S. Silva, Jefferson J. S. Santos, Elizabeth M. Drapeau, Nancy H. L. Leung, Scott E. Hensley, Benjamin J. Cowling, Tavis K. Anderson, Phillip C. Gauger, and Amy L. Baker. Occupationally exposed and general population antibody profiles to influenza A viruses circulating in swine as an indication of zoonotic risk; 2021-22.

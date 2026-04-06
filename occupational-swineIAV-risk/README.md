@@ -54,8 +54,9 @@ IAV strains were selected to represent the genetic diversity of viruses circulat
 - Tree rendering is completed in FigTree.
 
 #### Cohort Comparisons ####
-- flu54_scripts 1 through 9 processes HI data, producing boxplots demonstrating differences between cohorts for the various strains.
+- R scripts flu54_scripts 1 through 9 processes HI data, producing boxplots demonstrating differences between cohorts for the various strains.
 - Odds ratio analyses are produced, calulcating the effect of cohort membership on seropositivity.
+- flu54_script_review.R addresses a reviewer suggestion, not present in the final manuscript.
 
 #### Related Citations: ####
 

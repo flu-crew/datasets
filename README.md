@@ -2,6 +2,11 @@
 
 flu-crew datasets used in manuscripts, tutorials, and other work.
 
+## multivalent-mRNA-vaccine
+Data and files for:
+Giovana Ciacci Zanella, Marissa L. Vincent, Leo Flores, Ethan K. Aljets, Rodrigo C. Paiva, Alexey Markin, Blake Inderski, Garima Dwivedi, Drew Weissman, Meghan Wymore Brand, Jefferson J. S. Santos, Scott E. Hensley, Tavis K. Anderson, Phillip C. Gauger, and Amy L. Baker. Multivalent mRNA-lipid nanoparticle vaccine against swine Influenza A; 2025-26
+
+
 ## occupational-swineIAV-risk
 Data and files for:
 Celeste A. Snyder, Garrett M. Janzen, Giovana Ciacci Zanella, Daniel C. A. Moraes, Gustavo S. Silva, Jefferson J. S. Santos, Elizabeth M. Drapeau, Nancy H. L. Leung, Scott E. Hensley, Benjamin J. Cowling, Tavis K. Anderson, Phillip C. Gauger, and Amy L. Baker. Occupationally exposed and general population antibody profiles to influenza A viruses circulating in swine as an indication of zoonotic risk; 2021-22.

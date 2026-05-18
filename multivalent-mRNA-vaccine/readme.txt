@@ -14,8 +14,8 @@ A/swine/Ohio/A02685126/2023
 
 
 **Method**
-Demo code corresponding to directions below in "demo-code.zip" may be provided upon request
-Note that intermediate demo files are reconstructed and may not be 100% identical to published results
+Demo code corresponding to directions below in "demo-code.zip"
+Note that private strains are withheld from demo. Original dataset may be provided upon request.
 
 1) query with octofludb (000.rq --> 000.fasta)
 2) confirm vaccine strains in query output
